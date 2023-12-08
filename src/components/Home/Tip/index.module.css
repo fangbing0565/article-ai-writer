@@ -1,0 +1,16 @@
+.tip {
+    height: 50px;
+    background: linear-gradient(90deg,#fff,#f3f7ff);
+    box-shadow: 0 0 30px 1px rgba(0,0,0,.06);
+    border-radius: 10px 10px 10px 10px;
+    width: 100%;
+    border: 2px solid #fff;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-top: 30px;
+}
+
+.tip_text {
+    color: #3f4654;
+}
