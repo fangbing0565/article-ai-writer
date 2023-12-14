@@ -26,23 +26,22 @@ const Home: NextPage = () => {
   const [form] = Form.useForm()
   const route = useRouter()
   const [articleType, setArticleType] = useState<string>(options[0].value)
-  const [content, setContent] = useState<string>()
   const [isFirstLoad, setIsFirstLoad] = useState<boolean>(true)
   const [step, setStep] = useState(1)
+  const [content, setContent] = useState('')
   const [outlineValue, setOutlineValue] = useState([])
-  const changeContent = (event: any) => {
-    setContent(event.target.value)
-  }
+
   const changeArticleType = (value: string) => {
     setArticleType(value)
   }
 
   const handleSubmit = useCallback(
     async (values: any) => {
+      setContent(values.content)
       console.info('values: ', values, articleType)
-      route.replace(`?articleType=${articleType}&content=${content}&degree=${values.degree}`)
+      route.replace(`?articleType=${articleType}&content=${values.content}&degree=${values.degree}`)
       const res = await postGenerateService({
-        content: `以《${content}》为标题来写一篇${degreeTextMap[values.degree]}${
+        content: `以《${values.content}》为标题来写一篇${degreeTextMap[values.degree]}${
           articleTypeTextMap[articleType]
         }的大纲`
       })
@@ -54,7 +53,7 @@ const Home: NextPage = () => {
         // 请重试
       }
     },
-    [articleType, content, route]
+    [articleType, route]
   )
 
   const searchResult = useCallback(() => {
@@ -69,7 +68,8 @@ const Home: NextPage = () => {
       setContent((params.content as string) || '')
       changeArticleType((params.articleType as string) || '1')
       form.setFieldsValue({
-        degree: params.articleType || '2'
+        degree: params.articleType || '2',
+        content: (params.content as string) || ''
       })
     }
   }, [form, isFirstLoad, route])
@@ -82,7 +82,7 @@ const Home: NextPage = () => {
             <span>提交论文标题</span>
           </div>
           <Form form={form} onFinish={handleSubmit} className={styles['form-body']}>
-            <Form.Item>
+            <Form.Item name="content">
               <Flex>
                 <Select
                   className={styles.select}
@@ -95,8 +95,7 @@ const Home: NextPage = () => {
                     event.stopPropagation()
                     event.preventDefault()
                   }}
-                  onBlur={changeContent}
-                  value={content}
+                  defaultValue={content}
                   className={styles.input}
                   placeholder="输入完整的论文标题，获得更好的生成效果(5-50字内或20个单词内）"
                 />
@@ -146,7 +145,7 @@ const Home: NextPage = () => {
       <Flex className={styles['content-max']}>
         <div className={styles['content-form-max']}>
           <Form onFinish={handleSubmit} form={form} className={styles['form-body']}>
-            <Form.Item>
+            <Form.Item name="content">
               <Flex>
                 <Select
                   className={styles.select}
@@ -155,12 +154,11 @@ const Home: NextPage = () => {
                   onChange={changeArticleType}
                 ></Select>
                 <Input
-                  defaultValue={content}
                   onPressEnter={(event) => {
                     event.stopPropagation()
                     event.preventDefault()
                   }}
-                  onBlur={changeContent}
+                  defaultValue={content}
                   className={styles['input-max']}
                   placeholder="输入完整的论文标题，获得更好的生成效果(5-50字内或20个单词内）"
                 />
