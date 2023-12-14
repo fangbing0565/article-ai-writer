@@ -81,7 +81,7 @@ const Home: NextPage = () => {
           <div className={styles.title}>
             <span>提交论文标题</span>
           </div>
-          <Form onFinish={handleSubmit} form={form} className={styles['form-body']}>
+          <Form form={form} onFinish={handleSubmit} className={styles['form-body']}>
             <Form.Item>
               <Flex>
                 <Select
@@ -96,7 +96,7 @@ const Home: NextPage = () => {
                     event.preventDefault()
                   }}
                   onBlur={changeContent}
-                  defaultValue={content}
+                  value={content}
                   className={styles.input}
                   placeholder="输入完整的论文标题，获得更好的生成效果(5-50字内或20个单词内）"
                 />
@@ -141,7 +141,7 @@ const Home: NextPage = () => {
     )
   }, [searchResult])
 
-  const Step2 = () => {
+  const Step2 = useCallback(() => {
     return (
       <Flex className={styles['content-max']}>
         <div className={styles['content-form-max']}>
@@ -192,7 +192,7 @@ const Home: NextPage = () => {
         </div>
       </Flex>
     )
-  }
+  }, [articleType, content, form, handleSubmit, outlineValue, searchResult])
   return (
     <Layout title="提交论文标题">
       <Tip />
