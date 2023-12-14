@@ -59,6 +59,9 @@
       "pre-push": "jest"
     }
   },
+  "resolutions": {
+    "prosemirror-model": "1.9.1"
+  },
   "lint-staged": {
     "*.{js,jsx,ts,tsx}": [
       "eslint . --fix",
