@@ -4,7 +4,7 @@ const IndexPage: NextPage = () => {
   return (
     <>
       <div id="globalLoader">
-        <img src="https://upload.wikimedia.org/wikipedia/commons/b/b1/Loading_icon.gif" alt="" />
+        <img src="img/Loading_icon.gif" alt="" />
       </div>
       <Home />
     </>
