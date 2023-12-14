@@ -6,6 +6,8 @@ import styles from './index.module.css'
 import { useCallback, useEffect, useState } from 'react'
 import { postGenerateService } from 'utils'
 import { useRouter } from 'next/navigation'
+import { getUrlParams } from 'utils/tools'
+import Editor from 'rich-markdown-editor'
 
 const options: any[] = [
   { value: '1', label: '毕业论文' },
@@ -13,12 +15,12 @@ const options: any[] = [
 ]
 const Home: NextPage = () => {
   const [form] = Form.useForm()
-
   const route = useRouter()
   const [articleType, setArticleType] = useState<string>(options[0].value)
   const [content, setContent] = useState<string>()
   const [isFirstLoad, setIsFirstLoad] = useState<boolean>(true)
   const [step, setStep] = useState(1)
+  const [outlineValue, setOutlineValue] = useState('')
   const changeContent = (event: any) => {
     setContent(event.target.value)
   }
@@ -35,8 +37,9 @@ const Home: NextPage = () => {
         articleType,
         degree: values.degree
       })
-      console.log('setStep(2): ', setStep(2))
-      console.info('res', res)
+      setStep(2)
+      console.info('result: ', res)
+      setOutlineValue(res.data.choices[0].message.content)
     },
     [articleType, content, route]
   )
@@ -49,15 +52,7 @@ const Home: NextPage = () => {
     // 这段没生效
     if (isFirstLoad) {
       setIsFirstLoad(false)
-      const params =
-        location.href
-          .split('?')[1]
-          ?.split('&')
-          .reduce((result: any, item) => {
-            const arr = item.split('=')
-            result[arr[0]] = decodeURIComponent(arr[1])
-            return result
-          }, {}) || {}
+      const params = getUrlParams()
       setContent((params.content as string) || '')
       changeArticleType((params.articleType as string) || '1')
       form.setFieldsValue({
@@ -87,7 +82,8 @@ const Home: NextPage = () => {
                     event.stopPropagation()
                     event.preventDefault()
                   }}
-                  value={content}
+                  onBlur={changeContent}
+                  defaultValue={content}
                   className={styles.input}
                   placeholder="输入完整的论文标题，获得更好的生成效果(5-50字内或20个单词内）"
                 />
@@ -146,8 +142,12 @@ const Home: NextPage = () => {
                   onChange={changeArticleType}
                 ></Select>
                 <Input
-                  value={content}
-                  onChange={changeContent}
+                  defaultValue={content}
+                  onPressEnter={(event) => {
+                    event.stopPropagation()
+                    event.preventDefault()
+                  }}
+                  onBlur={changeContent}
                   className={styles['input-max']}
                   placeholder="输入完整的论文标题，获得更好的生成效果(5-50字内或20个单词内）"
                 />
@@ -173,6 +173,9 @@ const Home: NextPage = () => {
               </Radio.Group>
             </Form.Item>
           </Form>
+          <div>
+            <Editor value={outlineValue} />
+          </div>
         </div>
       </Flex>
     )
@@ -180,8 +183,8 @@ const Home: NextPage = () => {
   return (
     <Layout title="提交论文标题">
       <Tip />
-      {step === 2 && <Step1 />}
-      {step === 1 && <Step2 />}
+      {step === 1 && <Step1 />}
+      {step === 2 && <Step2 />}
       {step === 3 && <Step3 />}
     </Layout>
   )
