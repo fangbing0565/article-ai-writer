@@ -1,0 +1,14 @@
+.box{
+    padding: 14px 8px;
+    width: 20%;
+    min-height: 700px;
+    height: calc(100vh - 226px);
+    background: #fff;
+    box-shadow: 0 4px 16px 1px rgba(98,101,107,.16);
+    border-radius: 12px 12px 12px 12px;
+    opacity: 1;
+    box-sizing: border-box;
+    padding: 14px 14px 16px 14px;
+    margin-right: 23px;
+    overflow: auto;
+}

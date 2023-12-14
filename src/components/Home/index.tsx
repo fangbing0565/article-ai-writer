@@ -7,7 +7,7 @@ import { useCallback, useEffect, useState } from 'react'
 import { postGenerateService } from 'utils'
 import { useRouter } from 'next/navigation'
 import { getUrlParams } from 'utils/tools'
-import Editor from 'rich-markdown-editor'
+import OutlineGroup from 'components/OutlineGroup'
 
 const options: any[] = [
   { value: '1', label: '毕业论文' },
@@ -29,7 +29,7 @@ const Home: NextPage = () => {
   const [content, setContent] = useState<string>()
   const [isFirstLoad, setIsFirstLoad] = useState<boolean>(true)
   const [step, setStep] = useState(1)
-  const [outlineValue, setOutlineValue] = useState('')
+  const [outlineValue, setOutlineValue] = useState([])
   const changeContent = (event: any) => {
     setContent(event.target.value)
   }
@@ -49,7 +49,7 @@ const Home: NextPage = () => {
       setStep(2)
       console.info('result: ', res)
       if (res.message === 'success') {
-        setOutlineValue(res.data.choices[0].message.content)
+        setOutlineValue(res.data)
       } else {
         // 请重试
       }
@@ -187,7 +187,7 @@ const Home: NextPage = () => {
             </Form.Item>
           </Form>
           <div>
-            <Editor value={outlineValue} />
+            <OutlineGroup value={outlineValue} />
           </div>
         </div>
       </Flex>
