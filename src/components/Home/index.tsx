@@ -13,6 +13,15 @@ const options: any[] = [
   { value: '1', label: '毕业论文' },
   { value: '2', label: '开题报告' }
 ]
+const articleTypeTextMap: any = {
+  1: '毕业论文',
+  2: '开题报告'
+}
+const degreeTextMap: any = {
+  1: '大专生',
+  2: '本科生',
+  3: '研究生'
+}
 const Home: NextPage = () => {
   const [form] = Form.useForm()
   const route = useRouter()
@@ -33,9 +42,9 @@ const Home: NextPage = () => {
       console.info('values: ', values, articleType)
       route.replace(`?articleType=${articleType}&content=${content}&degree=${values.degree}`)
       const res = await postGenerateService({
-        content: content,
-        articleType,
-        degree: values.degree
+        content: `以《${content}》为标题来写一篇${degreeTextMap[values.degree]}${
+          articleTypeTextMap[articleType]
+        }的大纲`
       })
       setStep(2)
       console.info('result: ', res)

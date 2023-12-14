@@ -17,11 +17,16 @@ export default async function handler(req: NextApiRequest, res: NextApiResponse<
     body: JSON.stringify({
       model: 'gpt-4',
       messages: [{ role: 'user', content: content }],
-      // messages: [{ role: 'user', content: '基于《中国西部文化旅游业开发的时代意义》写一篇大纲' }],
       temperature: 0.7
     })
   })
-  gptResult.json().then((data) => {
-    res.status(200).json({ message: 'success', data })
-  })
+  gptResult
+    .json()
+    .then((data) => {
+      console.log('data: ', data)
+      res.status(200).json({ message: 'success', data })
+    })
+    .catch((err) => {
+      console.log('err: ', err)
+    })
 }
