@@ -48,7 +48,11 @@ const Home: NextPage = () => {
       })
       setStep(2)
       console.info('result: ', res)
-      setOutlineValue(res.data.choices[0].message.content)
+      if (res.message === 'success') {
+        setOutlineValue(res.data.choices[0].message.content)
+      } else {
+        // 请重试
+      }
     },
     [articleType, content, route]
   )
