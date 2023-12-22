@@ -6,7 +6,7 @@
             "school": "重庆工商大学",
             "outline": [
                 {
-                    "content_original": "1 绪论",
+                    "content_original": "1. 绪论",
                     "id": "98548002",
                     "outline_rank": 1,
                     "order_no": 2,
@@ -14,7 +14,7 @@
                     "creationId": null,
                     "sub": [
                         {
-                            "content_original": "1.1 研究背景及意义",
+                            "content_original": "1.1. 研究背景及意义",
                             "id": "98548003",
                             "outline_rank": 2,
                             "order_no": 3,
@@ -23,7 +23,7 @@
                             "sub": null
                         },
                         {
-                            "content_original": "1.2 理论基础及研究综述",
+                            "content_original": "1.2. 理论基础及研究综述",
                             "id": "98548004",
                             "outline_rank": 2,
                             "order_no": 4,
@@ -32,7 +32,7 @@
                             "sub": null
                         },
                         {
-                            "content_original": "1.3 研究内容与研究方法",
+                            "content_original": "1.3. 研究内容与研究方法",
                             "id": "98548005",
                             "outline_rank": 2,
                             "order_no": 5,
@@ -52,7 +52,7 @@
                     ]
                 },
                 {
-                    "content_original": "2 西部地区旅游业发展现状及问题",
+                    "content_original": "2. 西部地区旅游业发展现状及问题",
                     "id": "98548007",
                     "outline_rank": 1,
                     "order_no": 7,
@@ -60,7 +60,7 @@
                     "creationId": null,
                     "sub": [
                         {
-                            "content_original": "2.1 西部地区旅游业发展现状",
+                            "content_original": "2.1. 西部地区旅游业发展现状",
                             "id": "98548008",
                             "outline_rank": 2,
                             "order_no": 8,
@@ -69,7 +69,7 @@
                             "sub": null
                         },
                         {
-                            "content_original": "2.2 西部地区旅游业存在的问题",
+                            "content_original": "2.2. 西部地区旅游业存在的问题",
                             "id": "98548009",
                             "outline_rank": 2,
                             "order_no": 9,
@@ -80,7 +80,7 @@
                     ]
                 },
                 {
-                    "content_original": "3 西部地区旅游发展差异分析",
+                    "content_original": "3. 西部地区旅游发展差异分析",
                     "id": "98548010",
                     "outline_rank": 1,
                     "order_no": 10,
@@ -108,7 +108,7 @@
                     ]
                 },
                 {
-                    "content_original": "4 西部地区旅游发展差异的影响因素分析",
+                    "content_original": "4. 西部地区旅游发展差异的影响因素分析",
                     "id": "98548013",
                     "outline_rank": 1,
                     "order_no": 13,
@@ -136,7 +136,7 @@
                     ]
                 },
                 {
-                    "content_original": "5 促进西部地区旅游业发展的对策建议",
+                    "content_original": "5. 促进西部地区旅游业发展的对策建议",
                     "id": "98548016",
                     "outline_rank": 1,
                     "order_no": 16,
@@ -191,7 +191,7 @@
                     ]
                 },
                 {
-                    "content_original": "6 结论与展望",
+                    "content_original": "6. 结论与展望",
                     "id": "98548022",
                     "outline_rank": 1,
                     "order_no": 22,
@@ -231,7 +231,7 @@
             "school": "三亚中瑞酒店管理职业学院",
             "outline": [
                 {
-                    "content_original": "1 中国旅游业的发展",
+                    "content_original": "1. 中国旅游业的发展",
                     "id": "62987615000",
                     "outline_rank": 1,
                     "order_no": 0,
@@ -239,7 +239,7 @@
                     "creationId": null,
                     "sub": [
                         {
-                            "content_original": "1.1 古代旅游业",
+                            "content_original": "1.1. 古代旅游业",
                             "id": "62987615001",
                             "outline_rank": 2,
                             "order_no": 1,
@@ -248,7 +248,7 @@
                             "sub": null
                         },
                         {
-                            "content_original": "1.2 近现代旅游业",
+                            "content_original": "1.2. 近现代旅游业",
                             "id": "62987615002",
                             "outline_rank": 2,
                             "order_no": 2,
@@ -257,7 +257,7 @@
                             "sub": null
                         },
                         {
-                            "content_original": "1.3 未来旅游业",
+                            "content_original": "1.3. 未来旅游业",
                             "id": "62987615003",
                             "outline_rank": 2,
                             "order_no": 3,
@@ -268,7 +268,7 @@
                     ]
                 },
                 {
-                    "content_original": "2 中国旅游业的发展现状",
+                    "content_original": "2. 中国旅游业的发展现状",
                     "id": "62987615004",
                     "outline_rank": 1,
                     "order_no": 4,
@@ -276,7 +276,7 @@
                     "creationId": null,
                     "sub": [
                         {
-                            "content_original": "2.1 疫情中国旅游业的现状",
+                            "content_original": "2.1. 疫情中国旅游业的现状",
                             "id": "62987615005",
                             "outline_rank": 2,
                             "order_no": 5,
@@ -284,7 +284,7 @@
                             "creationId": null,
                             "sub": [
                                 {
-                                    "content_original": "2.1.1 疫情前中国旅游业的现状",
+                                    "content_original": "2.1.1. 疫情前中国旅游业的现状",
                                     "id": "62987615006",
                                     "outline_rank": 3,
                                     "order_no": 6,
@@ -293,7 +293,7 @@
                                     "sub": null
                                 },
                                 {
-                                    "content_original": "2.1.2 疫情影响下中国旅游业的现状",
+                                    "content_original": "2.1.2. 疫情影响下中国旅游业的现状",
                                     "id": "62987615007",
                                     "outline_rank": 3,
                                     "order_no": 7,
@@ -302,7 +302,7 @@
                                     "sub": null
                                 },
                                 {
-                                    "content_original": "2.1.3 疫情缓和后中国旅游业的现状",
+                                    "content_original": "2.1.3. 疫情缓和后中国旅游业的现状",
                                     "id": "62987615008",
                                     "outline_rank": 3,
                                     "order_no": 8,
@@ -313,7 +313,7 @@
                             ]
                         },
                         {
-                            "content_original": "2.2 旅游城市发展现状",
+                            "content_original": "2.2. 旅游城市发展现状",
                             "id": "62987615009",
                             "outline_rank": 2,
                             "order_no": 9,
@@ -322,7 +322,7 @@
                             "sub": null
                         },
                         {
-                            "content_original": "2.3 旅游业服务现状",
+                            "content_original": "2.3. 旅游业服务现状",
                             "id": "62987615010",
                             "outline_rank": 2,
                             "order_no": 10,
@@ -333,7 +333,7 @@
                     ]
                 },
                 {
-                    "content_original": "3 影响中国旅游业发展的原因",
+                    "content_original": "3. 影响中国旅游业发展的原因",
                     "id": "62987615011",
                     "outline_rank": 1,
                     "order_no": 11,
@@ -341,7 +341,7 @@
                     "creationId": null,
                     "sub": [
                         {
-                            "content_original": "3.1 行业吸引力不足",
+                            "content_original": "3.1. 行业吸引力不足",
                             "id": "62987615012",
                             "outline_rank": 2,
                             "order_no": 12,
@@ -350,7 +350,7 @@
                             "sub": null
                         },
                         {
-                            "content_original": "3.2 创新理念",
+                            "content_original": "3.2. 创新理念",
                             "id": "62987615013",
                             "outline_rank": 2,
                             "order_no": 13,
@@ -358,7 +358,7 @@
                             "creationId": null,
                             "sub": [
                                 {
-                                    "content_original": "3.2.1 人本理念",
+                                    "content_original": "3.2.1. 人本理念",
                                     "id": "62987615014",
                                     "outline_rank": 3,
                                     "order_no": 14,
@@ -367,7 +367,7 @@
                                     "sub": null
                                 },
                                 {
-                                    "content_original": "3.2.2 与时俱进创新",
+                                    "content_original": "3.2.2. 与时俱进创新",
                                     "id": "62987615015",
                                     "outline_rank": 3,
                                     "order_no": 15,
@@ -380,7 +380,7 @@
                     ]
                 },
                 {
-                    "content_original": "4 中国旅游业的发展趋势",
+                    "content_original": "4. 中国旅游业的发展趋势",
                     "id": "62987615016",
                     "outline_rank": 1,
                     "order_no": 16,
@@ -388,7 +388,7 @@
                     "creationId": null,
                     "sub": [
                         {
-                            "content_original": "4.1 旅游消费水平逐年增高",
+                            "content_original": "4.1. 旅游消费水平逐年增高",
                             "id": "62987615017",
                             "outline_rank": 2,
                             "order_no": 17,
@@ -397,7 +397,7 @@
                             "sub": null
                         },
                         {
-                            "content_original": "4.2 旅游人数稳步增长",
+                            "content_original": "4.2. 旅游人数稳步增长",
                             "id": "62987615018",
                             "outline_rank": 2,
                             "order_no": 18,
@@ -406,7 +406,7 @@
                             "sub": null
                         },
                         {
-                            "content_original": "4.3 旅游路线由短途向长途发展",
+                            "content_original": "4.3. 旅游路线由短途向长途发展",
                             "id": "62987615019",
                             "outline_rank": 2,
                             "order_no": 19,
@@ -415,7 +415,7 @@
                             "sub": null
                         },
                         {
-                            "content_original": "4.4 旅游由单一化向多样化发展",
+                            "content_original": "4.4. 旅游由单一化向多样化发展",
                             "id": "62987615020",
                             "outline_rank": 2,
                             "order_no": 20,
@@ -426,7 +426,7 @@
                     ]
                 },
                 {
-                    "content_original": "5 结论及展望",
+                    "content_original": "5. 结论及展望",
                     "id": "62987615021",
                     "outline_rank": 1,
                     "order_no": 21,
@@ -434,7 +434,7 @@
                     "creationId": null,
                     "sub": [
                         {
-                            "content_original": "5.1 结论",
+                            "content_original": "5.1. 结论",
                             "id": "62987615022",
                             "outline_rank": 2,
                             "order_no": 22,
@@ -443,7 +443,7 @@
                             "sub": null
                         },
                         {
-                            "content_original": "5.2 展望",
+                            "content_original": "5.2. 展望",
                             "id": "62987615023",
                             "outline_rank": 2,
                             "order_no": 23,

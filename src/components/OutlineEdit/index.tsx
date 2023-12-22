@@ -7,12 +7,15 @@ import { QuestionCircleOutlined } from '@ant-design/icons'
 const OutlineEdit = () => {
   const [outlineDefaultValue, setOutlineDefaultValue] = useState<string>()
   const [outlineValue, setOutlineValue] = useState<string>()
+
   const handleChange = useCallback((val: () => string) => {
     setOutlineValue(val())
   }, [])
+
   const handleSave = useCallback(() => {
     setOutlineDefaultValue(outlineValue)
   }, [outlineValue])
+
   return (
     <div className={styles.wrapper}>
       <div className={styles.box}>
@@ -28,16 +31,7 @@ const OutlineEdit = () => {
             onBlur={handleSave}
             onChange={handleChange}
             defaultValue={outlineDefaultValue}
-            embeds={[
-              {
-                title: 'Google Doc',
-                keywords: 'google docs gdocs',
-                icon: QuestionCircleOutlined,
-                defaultHidden: false,
-                matcher: (href) => href.matches(/docs.google.com/i),
-                component: () => <div>111</div>
-              }
-            ]}
+            embeds={[]}
           />
         </div>
         <div className={styles.btns}>
