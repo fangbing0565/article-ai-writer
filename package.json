@@ -19,6 +19,7 @@
     "@apideck/components": "^0.12.8",
     "antd": "^5.11.1",
     "next": "^13.3.1",
+    "nodejieba": "^2.6.0",
     "react": "^18.2.0",
     "react-dom": "^18.2.0",
     "rich-markdown-editor": "^11.21.3",

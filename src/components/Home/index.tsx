@@ -4,7 +4,7 @@ import { NextPage } from 'next'
 import Tip from 'components/Home/Tip'
 import styles from './index.module.css'
 import { useCallback, useEffect, useState } from 'react'
-import { postGenerateService } from 'utils'
+import { postGenerateOutlineService } from 'utils'
 import { useRouter } from 'next/navigation'
 import { getUrlParams } from 'utils/tools'
 import OutlineGroup from 'components/OutlineGroup'
@@ -40,7 +40,8 @@ const Home: NextPage = () => {
       setContent(values.content)
       console.info('values: ', values, articleType)
       route.replace(`?articleType=${articleType}&content=${values.content}&degree=${values.degree}`)
-      const res = await postGenerateService({
+      const res = await postGenerateOutlineService({
+        originContent: values.content,
         content: `以《${values.content}》为标题来写一篇${degreeTextMap[values.degree]}${
           articleTypeTextMap[articleType]
         }的大纲`

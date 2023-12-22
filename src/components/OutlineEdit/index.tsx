@@ -1,34 +1,25 @@
 import { useState } from 'react'
 import styles from './index.module.css'
 import Editor from 'rich-markdown-editor'
-import { Button } from 'antd'
+import { Button, Tag } from 'antd'
+import { QuestionCircleOutlined } from '@ant-design/icons'
 
-const tansferDatatoRickValue = (outline: Record<string, any>) => {
-  return outline
-    .map((item: any) => {
-      console.info('outline item: ', item)
-      return (
-        item.content_original +
-        '/n' +
-        (!item.sub ? '' : item.sub?.map((sub: any) => sub.content_original).join('/n'))
-      )
-    })
-    .join('/n')
-}
-interface Props {
-  value: any
-}
-const Outline = (props: Props) => {
-  const { value } = props
-  const [outlineValue, setOutlineValue] = useState(tansferDatatoRickValue(value))
+const OutlineEdit = () => {
+  const [outlineValue, setOutlineValue] = useState<string>()
   const handleChange = (val: () => string) => {
     console.log('handleChange: ', val)
     setOutlineValue(val)
   }
-
   return (
     <div className={styles.wrapper}>
       <div className={styles.box}>
+        <div className={styles.title}>
+          <QuestionCircleOutlined rev={''} />
+          提纲编辑区
+        </div>
+        <div className={styles.content}>
+          提纲编辑区： <Tag>tab</Tag>/ <Tag>shift</Tag> <Tag>tab</Tag>可切换提纲级别
+        </div>
         <div className={styles.editor}>
           <Editor onChange={handleChange} value={outlineValue} />
         </div>
@@ -40,4 +31,4 @@ const Outline = (props: Props) => {
     </div>
   )
 }
-export default Outline
+export default OutlineEdit

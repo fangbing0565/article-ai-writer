@@ -1,22 +1,4443 @@
-{
-    "id": "chatcmpl-8VbiGM2cUtJQl27jXGUTgZcZaTvSB",
-    "object": "chat.completion",
-    "created": 1702543828,
-    "model": "gpt-4-0613",
-    "choices": [
+[
         {
-            "index": 0,
-            "message": {
-                "role": "assistant",
-                "content": "I. 引言\nA. 背景介绍: 中国西部地区的文化和历史悠久，拥有丰富的旅游资源。\nB. 问题阐述: 随着经济全球化，文化旅游业发展迅速，中国西部地区如何抓住这一机遇，推动文化旅游业的发展，具有重要的时代意义。\nC. 论文目标: 本文将探讨中国西部文化旅游业开发的时代意义，以及相关的政策建议。\n\nII. 中国西部文化旅游业发展的现状和问题\nA. 中国西部文化旅游业的发展现状\nB. 存在的问题与挑战: 如环境保护、旅游服务质量、旅游产品创新等。\n\nIII. 中国西部文化旅游业开发的时代意义\nA. 在经济角度的意义: 如促进地方经济发展、增加就业机会等。\nB. 在社会角度的意义: 如推动社会进步、增强民族团结和文化认同感等。\nC. 在环境角度的意义: 如保护自然环境、推动可持续旅游等。\n\nIV. 如何更好地开发中国西部文化旅游业\nA. 提高旅游服务质量和旅游产品创新\nB. 加强旅游市场营销和品牌建设\nC. 加强旅游环境保护和可持续旅游\n\nV. 政策建议\nA. 政府角度: 如提供政策支持、加强旅游基础设施建设等。\nB. 企业角度: 如提供高质量的旅游产品和服务、加强旅游品牌建设等。\n\nVI. 结论\nA. 中国西部文化旅游业开发的时代意义是巨大的，既可以促进经济发展，也可以推动社会进步和环境保护。\nB. 需要政府、企业和社会各方共同努力，以更好地开发中国西部的文化旅游业。\n\n参考文献"
-            },
-            "finish_reason": "stop"
+            "title": "西部地区旅游发展差异及影响因素研究",
+            "data_type": "11",
+            "school_level": "3",
+            "school": "重庆工商大学",
+            "outline": [
+                {
+                    "content_original": "1 绪论",
+                    "id": "98548002",
+                    "outline_rank": 1,
+                    "order_no": 2,
+                    "serial_number": null,
+                    "creationId": null,
+                    "sub": [
+                        {
+                            "content_original": "1.1 研究背景及意义",
+                            "id": "98548003",
+                            "outline_rank": 2,
+                            "order_no": 3,
+                            "serial_number": null,
+                            "creationId": null,
+                            "sub": null
+                        },
+                        {
+                            "content_original": "1.2 理论基础及研究综述",
+                            "id": "98548004",
+                            "outline_rank": 2,
+                            "order_no": 4,
+                            "serial_number": null,
+                            "creationId": null,
+                            "sub": null
+                        },
+                        {
+                            "content_original": "1.3 研究内容与研究方法",
+                            "id": "98548005",
+                            "outline_rank": 2,
+                            "order_no": 5,
+                            "serial_number": null,
+                            "creationId": null,
+                            "sub": null
+                        },
+                        {
+                            "content_original": "1.4 技术路线及可能的创新之处",
+                            "id": "98548006",
+                            "outline_rank": 2,
+                            "order_no": 6,
+                            "serial_number": null,
+                            "creationId": null,
+                            "sub": null
+                        }
+                    ]
+                },
+                {
+                    "content_original": "2 西部地区旅游业发展现状及问题",
+                    "id": "98548007",
+                    "outline_rank": 1,
+                    "order_no": 7,
+                    "serial_number": null,
+                    "creationId": null,
+                    "sub": [
+                        {
+                            "content_original": "2.1 西部地区旅游业发展现状",
+                            "id": "98548008",
+                            "outline_rank": 2,
+                            "order_no": 8,
+                            "serial_number": null,
+                            "creationId": null,
+                            "sub": null
+                        },
+                        {
+                            "content_original": "2.2 西部地区旅游业存在的问题",
+                            "id": "98548009",
+                            "outline_rank": 2,
+                            "order_no": 9,
+                            "serial_number": null,
+                            "creationId": null,
+                            "sub": null
+                        }
+                    ]
+                },
+                {
+                    "content_original": "3 西部地区旅游发展差异分析",
+                    "id": "98548010",
+                    "outline_rank": 1,
+                    "order_no": 10,
+                    "serial_number": null,
+                    "creationId": null,
+                    "sub": [
+                        {
+                            "content_original": "3.1 区域旅游发展差异测算指标及方法",
+                            "id": "98548011",
+                            "outline_rank": 2,
+                            "order_no": 11,
+                            "serial_number": null,
+                            "creationId": null,
+                            "sub": null
+                        },
+                        {
+                            "content_original": "3.2 西部地区旅游发展差异分析",
+                            "id": "98548012",
+                            "outline_rank": 2,
+                            "order_no": 12,
+                            "serial_number": null,
+                            "creationId": null,
+                            "sub": null
+                        }
+                    ]
+                },
+                {
+                    "content_original": "4 西部地区旅游发展差异的影响因素分析",
+                    "id": "98548013",
+                    "outline_rank": 1,
+                    "order_no": 13,
+                    "serial_number": null,
+                    "creationId": null,
+                    "sub": [
+                        {
+                            "content_original": "4.1 研究方法与变量选择",
+                            "id": "98548014",
+                            "outline_rank": 2,
+                            "order_no": 14,
+                            "serial_number": null,
+                            "creationId": null,
+                            "sub": null
+                        },
+                        {
+                            "content_original": "4.2 西部地区旅游发展差异影响因素分析的实证研究",
+                            "id": "98548015",
+                            "outline_rank": 2,
+                            "order_no": 15,
+                            "serial_number": null,
+                            "creationId": null,
+                            "sub": null
+                        }
+                    ]
+                },
+                {
+                    "content_original": "5 促进西部地区旅游业发展的对策建议",
+                    "id": "98548016",
+                    "outline_rank": 1,
+                    "order_no": 16,
+                    "serial_number": null,
+                    "creationId": null,
+                    "sub": [
+                        {
+                            "content_original": "5.1 发挥政府作用激活“内需”旅游市场",
+                            "id": "98548017",
+                            "outline_rank": 2,
+                            "order_no": 17,
+                            "serial_number": null,
+                            "creationId": null,
+                            "sub": null
+                        },
+                        {
+                            "content_original": "5.2 因地制宜加强旅游资源开发和保护",
+                            "id": "98548018",
+                            "outline_rank": 2,
+                            "order_no": 18,
+                            "serial_number": null,
+                            "creationId": null,
+                            "sub": null
+                        },
+                        {
+                            "content_original": "5.3 增加基础配套设施建设的投入",
+                            "id": "98548019",
+                            "outline_rank": 2,
+                            "order_no": 19,
+                            "serial_number": null,
+                            "creationId": null,
+                            "sub": null
+                        },
+                        {
+                            "content_original": "5.4 重视旅游人才队伍的建设和引进",
+                            "id": "98548020",
+                            "outline_rank": 2,
+                            "order_no": 20,
+                            "serial_number": null,
+                            "creationId": null,
+                            "sub": null
+                        },
+                        {
+                            "content_original": "5.5 加强旅游合作提升整体发展水平",
+                            "id": "98548021",
+                            "outline_rank": 2,
+                            "order_no": 21,
+                            "serial_number": null,
+                            "creationId": null,
+                            "sub": null
+                        }
+                    ]
+                },
+                {
+                    "content_original": "6 结论与展望",
+                    "id": "98548022",
+                    "outline_rank": 1,
+                    "order_no": 22,
+                    "serial_number": null,
+                    "creationId": null,
+                    "sub": [
+                        {
+                            "content_original": "6.1 研究结论",
+                            "id": "98548023",
+                            "outline_rank": 2,
+                            "order_no": 23,
+                            "serial_number": null,
+                            "creationId": null,
+                            "sub": null
+                        },
+                        {
+                            "content_original": "6.2 研究局限与展望",
+                            "id": "98548024",
+                            "outline_rank": 2,
+                            "order_no": 24,
+                            "serial_number": null,
+                            "creationId": null,
+                            "sub": null
+                        }
+                    ]
+                }
+            ],
+            "id": "1737296709743079426",
+            "wordCount": "14400字",
+            "outlineCount": 17,
+            "newOutlineCount": 17
+        },
+        {
+            "title": "中国旅游业的发展趋势",
+            "data_type": "22",
+            "school_level": "3",
+            "school": "三亚中瑞酒店管理职业学院",
+            "outline": [
+                {
+                    "content_original": "1 中国旅游业的发展",
+                    "id": "62987615000",
+                    "outline_rank": 1,
+                    "order_no": 0,
+                    "serial_number": null,
+                    "creationId": null,
+                    "sub": [
+                        {
+                            "content_original": "1.1 古代旅游业",
+                            "id": "62987615001",
+                            "outline_rank": 2,
+                            "order_no": 1,
+                            "serial_number": null,
+                            "creationId": null,
+                            "sub": null
+                        },
+                        {
+                            "content_original": "1.2 近现代旅游业",
+                            "id": "62987615002",
+                            "outline_rank": 2,
+                            "order_no": 2,
+                            "serial_number": null,
+                            "creationId": null,
+                            "sub": null
+                        },
+                        {
+                            "content_original": "1.3 未来旅游业",
+                            "id": "62987615003",
+                            "outline_rank": 2,
+                            "order_no": 3,
+                            "serial_number": null,
+                            "creationId": null,
+                            "sub": null
+                        }
+                    ]
+                },
+                {
+                    "content_original": "2 中国旅游业的发展现状",
+                    "id": "62987615004",
+                    "outline_rank": 1,
+                    "order_no": 4,
+                    "serial_number": null,
+                    "creationId": null,
+                    "sub": [
+                        {
+                            "content_original": "2.1 疫情中国旅游业的现状",
+                            "id": "62987615005",
+                            "outline_rank": 2,
+                            "order_no": 5,
+                            "serial_number": null,
+                            "creationId": null,
+                            "sub": [
+                                {
+                                    "content_original": "2.1.1 疫情前中国旅游业的现状",
+                                    "id": "62987615006",
+                                    "outline_rank": 3,
+                                    "order_no": 6,
+                                    "serial_number": null,
+                                    "creationId": null,
+                                    "sub": null
+                                },
+                                {
+                                    "content_original": "2.1.2 疫情影响下中国旅游业的现状",
+                                    "id": "62987615007",
+                                    "outline_rank": 3,
+                                    "order_no": 7,
+                                    "serial_number": null,
+                                    "creationId": null,
+                                    "sub": null
+                                },
+                                {
+                                    "content_original": "2.1.3 疫情缓和后中国旅游业的现状",
+                                    "id": "62987615008",
+                                    "outline_rank": 3,
+                                    "order_no": 8,
+                                    "serial_number": null,
+                                    "creationId": null,
+                                    "sub": null
+                                }
+                            ]
+                        },
+                        {
+                            "content_original": "2.2 旅游城市发展现状",
+                            "id": "62987615009",
+                            "outline_rank": 2,
+                            "order_no": 9,
+                            "serial_number": null,
+                            "creationId": null,
+                            "sub": null
+                        },
+                        {
+                            "content_original": "2.3 旅游业服务现状",
+                            "id": "62987615010",
+                            "outline_rank": 2,
+                            "order_no": 10,
+                            "serial_number": null,
+                            "creationId": null,
+                            "sub": null
+                        }
+                    ]
+                },
+                {
+                    "content_original": "3 影响中国旅游业发展的原因",
+                    "id": "62987615011",
+                    "outline_rank": 1,
+                    "order_no": 11,
+                    "serial_number": null,
+                    "creationId": null,
+                    "sub": [
+                        {
+                            "content_original": "3.1 行业吸引力不足",
+                            "id": "62987615012",
+                            "outline_rank": 2,
+                            "order_no": 12,
+                            "serial_number": null,
+                            "creationId": null,
+                            "sub": null
+                        },
+                        {
+                            "content_original": "3.2 创新理念",
+                            "id": "62987615013",
+                            "outline_rank": 2,
+                            "order_no": 13,
+                            "serial_number": null,
+                            "creationId": null,
+                            "sub": [
+                                {
+                                    "content_original": "3.2.1 人本理念",
+                                    "id": "62987615014",
+                                    "outline_rank": 3,
+                                    "order_no": 14,
+                                    "serial_number": null,
+                                    "creationId": null,
+                                    "sub": null
+                                },
+                                {
+                                    "content_original": "3.2.2 与时俱进创新",
+                                    "id": "62987615015",
+                                    "outline_rank": 3,
+                                    "order_no": 15,
+                                    "serial_number": null,
+                                    "creationId": null,
+                                    "sub": null
+                                }
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "content_original": "4 中国旅游业的发展趋势",
+                    "id": "62987615016",
+                    "outline_rank": 1,
+                    "order_no": 16,
+                    "serial_number": null,
+                    "creationId": null,
+                    "sub": [
+                        {
+                            "content_original": "4.1 旅游消费水平逐年增高",
+                            "id": "62987615017",
+                            "outline_rank": 2,
+                            "order_no": 17,
+                            "serial_number": null,
+                            "creationId": null,
+                            "sub": null
+                        },
+                        {
+                            "content_original": "4.2 旅游人数稳步增长",
+                            "id": "62987615018",
+                            "outline_rank": 2,
+                            "order_no": 18,
+                            "serial_number": null,
+                            "creationId": null,
+                            "sub": null
+                        },
+                        {
+                            "content_original": "4.3 旅游路线由短途向长途发展",
+                            "id": "62987615019",
+                            "outline_rank": 2,
+                            "order_no": 19,
+                            "serial_number": null,
+                            "creationId": null,
+                            "sub": null
+                        },
+                        {
+                            "content_original": "4.4 旅游由单一化向多样化发展",
+                            "id": "62987615020",
+                            "outline_rank": 2,
+                            "order_no": 20,
+                            "serial_number": null,
+                            "creationId": null,
+                            "sub": null
+                        }
+                    ]
+                },
+                {
+                    "content_original": "5 结论及展望",
+                    "id": "62987615021",
+                    "outline_rank": 1,
+                    "order_no": 21,
+                    "serial_number": null,
+                    "creationId": null,
+                    "sub": [
+                        {
+                            "content_original": "5.1 结论",
+                            "id": "62987615022",
+                            "outline_rank": 2,
+                            "order_no": 22,
+                            "serial_number": null,
+                            "creationId": null,
+                            "sub": null
+                        },
+                        {
+                            "content_original": "5.2 展望",
+                            "id": "62987615023",
+                            "outline_rank": 2,
+                            "order_no": 23,
+                            "serial_number": null,
+                            "creationId": null,
+                            "sub": null
+                        }
+                    ]
+                }
+            ],
+            "id": "1737296709780828161",
+            "wordCount": "14400字",
+            "outlineCount": 17,
+            "newOutlineCount": 17
+        },
+        {
+            "title": "旅游业对经济发展的影响——以贵州省的旅游业为例",
+            "data_type": "22",
+            "school_level": "3",
+            "school": null,
+            "outline": [
+                {
+                    "content_original": "1 研究的背景及意义",
+                    "id": "50186654000",
+                    "outline_rank": 1,
+                    "order_no": 0,
+                    "serial_number": null,
+                    "creationId": null,
+                    "sub": [
+                        {
+                            "content_original": "1.1 现实背景",
+                            "id": "50186654001",
+                            "outline_rank": 2,
+                            "order_no": 1,
+                            "serial_number": null,
+                            "creationId": null,
+                            "sub": null
+                        },
+                        {
+                            "content_original": "1.2 理论背景",
+                            "id": "50186654002",
+                            "outline_rank": 2,
+                            "order_no": 2,
+                            "serial_number": null,
+                            "creationId": null,
+                            "sub": null
+                        },
+                        {
+                            "content_original": "1.3 研究意义",
+                            "id": "50186654003",
+                            "outline_rank": 2,
+                            "order_no": 3,
+                            "serial_number": null,
+                            "creationId": null,
+                            "sub": [
+                                {
+                                    "content_original": "1.3.1 有利于正确认识旅游业在贵州经济中的地位和作用",
+                                    "id": "50186654004",
+                                    "outline_rank": 3,
+                                    "order_no": 4,
+                                    "serial_number": null,
+                                    "creationId": null,
+                                    "sub": null
+                                },
+                                {
+                                    "content_original": "1.3.2 有助于预防旅游开发中的消极风险",
+                                    "id": "50186654005",
+                                    "outline_rank": 3,
+                                    "order_no": 5,
+                                    "serial_number": null,
+                                    "creationId": null,
+                                    "sub": null
+                                }
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "content_original": "2 相关概念界定及文献综述",
+                    "id": "50186654006",
+                    "outline_rank": 1,
+                    "order_no": 6,
+                    "serial_number": null,
+                    "creationId": null,
+                    "sub": [
+                        {
+                            "content_original": "2.1 旅游业",
+                            "id": "50186654007",
+                            "outline_rank": 2,
+                            "order_no": 7,
+                            "serial_number": null,
+                            "creationId": null,
+                            "sub": null
+                        },
+                        {
+                            "content_original": "2.2 经济增长",
+                            "id": "50186654008",
+                            "outline_rank": 2,
+                            "order_no": 8,
+                            "serial_number": null,
+                            "creationId": null,
+                            "sub": null
+                        },
+                        {
+                            "content_original": "2.3 文献综述",
+                            "id": "50186654009",
+                            "outline_rank": 2,
+                            "order_no": 9,
+                            "serial_number": null,
+                            "creationId": null,
+                            "sub": null
+                        }
+                    ]
+                },
+                {
+                    "content_original": "3 贵州旅游业发展的现状",
+                    "id": "50186654010",
+                    "outline_rank": 1,
+                    "order_no": 10,
+                    "serial_number": null,
+                    "creationId": null,
+                    "sub": [
+                        {
+                            "content_original": "3.1 贵州旅游发展的历史变化特征",
+                            "id": "50186654011",
+                            "outline_rank": 2,
+                            "order_no": 11,
+                            "serial_number": null,
+                            "creationId": null,
+                            "sub": null
+                        },
+                        {
+                            "content_original": "3.2 贵州旅游业的发展现状",
+                            "id": "50186654012",
+                            "outline_rank": 2,
+                            "order_no": 12,
+                            "serial_number": null,
+                            "creationId": null,
+                            "sub": [
+                                {
+                                    "content_original": "3.2.1 贵州旅游业的发展优势",
+                                    "id": "50186654013",
+                                    "outline_rank": 3,
+                                    "order_no": 13,
+                                    "serial_number": null,
+                                    "creationId": null,
+                                    "sub": null
+                                },
+                                {
+                                    "content_original": "3.2.2 旅游当前的市场消费情况",
+                                    "id": "50186654014",
+                                    "outline_rank": 3,
+                                    "order_no": 14,
+                                    "serial_number": null,
+                                    "creationId": null,
+                                    "sub": null
+                                }
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "content_original": "4 旅游业对经济增长的实证分析",
+                    "id": "50186654015",
+                    "outline_rank": 1,
+                    "order_no": 15,
+                    "serial_number": null,
+                    "creationId": null,
+                    "sub": [
+                        {
+                            "content_original": "4.1 样本数据及理论模型",
+                            "id": "50186654016",
+                            "outline_rank": 2,
+                            "order_no": 16,
+                            "serial_number": null,
+                            "creationId": null,
+                            "sub": null
+                        },
+                        {
+                            "content_original": "4.2 模型优化、参数估计与检验",
+                            "id": "50186654017",
+                            "outline_rank": 2,
+                            "order_no": 17,
+                            "serial_number": null,
+                            "creationId": null,
+                            "sub": null
+                        },
+                        {
+                            "content_original": "4.3 结论",
+                            "id": "50186654018",
+                            "outline_rank": 2,
+                            "order_no": 18,
+                            "serial_number": null,
+                            "creationId": null,
+                            "sub": null
+                        }
+                    ]
+                },
+                {
+                    "content_original": "5 存在的问题",
+                    "id": "50186654019",
+                    "outline_rank": 1,
+                    "order_no": 19,
+                    "serial_number": null,
+                    "creationId": null,
+                    "sub": [
+                        {
+                            "content_original": "5.1 对旅游资源过度消耗",
+                            "id": "50186654020",
+                            "outline_rank": 2,
+                            "order_no": 20,
+                            "serial_number": null,
+                            "creationId": null,
+                            "sub": null
+                        },
+                        {
+                            "content_original": "5.2 旅游业价值低下",
+                            "id": "50186654021",
+                            "outline_rank": 2,
+                            "order_no": 21,
+                            "serial_number": null,
+                            "creationId": null,
+                            "sub": null
+                        }
+                    ]
+                },
+                {
+                    "content_original": "6 对策和建议",
+                    "id": "50186654022",
+                    "outline_rank": 1,
+                    "order_no": 22,
+                    "serial_number": null,
+                    "creationId": null,
+                    "sub": [
+                        {
+                            "content_original": "6.1 警惕对旅游资源的消耗,保护旅游生态",
+                            "id": "50186654023",
+                            "outline_rank": 2,
+                            "order_no": 23,
+                            "serial_number": null,
+                            "creationId": null,
+                            "sub": null
+                        },
+                        {
+                            "content_original": "6.2 提高旅游业的发展价值",
+                            "id": "50186654024",
+                            "outline_rank": 2,
+                            "order_no": 24,
+                            "serial_number": null,
+                            "creationId": null,
+                            "sub": null
+                        }
+                    ]
+                }
+            ],
+            "id": "1737296709822771201",
+            "wordCount": "14400字",
+            "outlineCount": 17,
+            "newOutlineCount": 17
+        },
+        {
+            "title": "基于spss疫情对旅游业的影响",
+            "data_type": "22",
+            "school_level": "3",
+            "school": null,
+            "outline": [
+                {
+                    "content_original": "1 绪论",
+                    "id": "46354411002",
+                    "outline_rank": 1,
+                    "order_no": 2,
+                    "serial_number": null,
+                    "creationId": null,
+                    "sub": [
+                        {
+                            "content_original": "1.1 研究背景",
+                            "id": "46354411003",
+                            "outline_rank": 2,
+                            "order_no": 3,
+                            "serial_number": null,
+                            "creationId": null,
+                            "sub": null
+                        },
+                        {
+                            "content_original": "1.2 研究内容",
+                            "id": "46354411004",
+                            "outline_rank": 2,
+                            "order_no": 4,
+                            "serial_number": null,
+                            "creationId": null,
+                            "sub": null
+                        }
+                    ]
+                },
+                {
+                    "content_original": "2 疫情对旅游业的影响",
+                    "id": "46354411005",
+                    "outline_rank": 1,
+                    "order_no": 5,
+                    "serial_number": null,
+                    "creationId": null,
+                    "sub": [
+                        {
+                            "content_original": "2.1 旅游业的概述",
+                            "id": "46354411006",
+                            "outline_rank": 2,
+                            "order_no": 6,
+                            "serial_number": null,
+                            "creationId": null,
+                            "sub": null
+                        },
+                        {
+                            "content_original": "2.2 疫情对旅游业的影响",
+                            "id": "46354411007",
+                            "outline_rank": 2,
+                            "order_no": 7,
+                            "serial_number": null,
+                            "creationId": null,
+                            "sub": null
+                        },
+                        {
+                            "content_original": "2.3 国内外旅游业的状况比较",
+                            "id": "46354411008",
+                            "outline_rank": 2,
+                            "order_no": 8,
+                            "serial_number": null,
+                            "creationId": null,
+                            "sub": null
+                        }
+                    ]
+                },
+                {
+                    "content_original": "3 基于spss的数据分析",
+                    "id": "46354411009",
+                    "outline_rank": 1,
+                    "order_no": 9,
+                    "serial_number": null,
+                    "creationId": null,
+                    "sub": [
+                        {
+                            "content_original": "3.1 数据来源与搜集",
+                            "id": "46354411010",
+                            "outline_rank": 2,
+                            "order_no": 10,
+                            "serial_number": null,
+                            "creationId": null,
+                            "sub": null
+                        },
+                        {
+                            "content_original": "3.2 数据处理与分析方法",
+                            "id": "46354411011",
+                            "outline_rank": 2,
+                            "order_no": 11,
+                            "serial_number": null,
+                            "creationId": null,
+                            "sub": null
+                        },
+                        {
+                            "content_original": "3.3 数据分析结果及其解释",
+                            "id": "46354411012",
+                            "outline_rank": 2,
+                            "order_no": 12,
+                            "serial_number": null,
+                            "creationId": null,
+                            "sub": null
+                        }
+                    ]
+                },
+                {
+                    "content_original": "4 疫情对旅游业的启示",
+                    "id": "46354411013",
+                    "outline_rank": 1,
+                    "order_no": 13,
+                    "serial_number": null,
+                    "creationId": null,
+                    "sub": [
+                        {
+                            "content_original": "4.1 旅游业的风险管理",
+                            "id": "46354411014",
+                            "outline_rank": 2,
+                            "order_no": 14,
+                            "serial_number": null,
+                            "creationId": null,
+                            "sub": null
+                        },
+                        {
+                            "content_original": "4.2 旅游业的适应性发展",
+                            "id": "46354411015",
+                            "outline_rank": 2,
+                            "order_no": 15,
+                            "serial_number": null,
+                            "creationId": null,
+                            "sub": null
+                        },
+                        {
+                            "content_original": "4.3 旅游业的创新发展",
+                            "id": "46354411016",
+                            "outline_rank": 2,
+                            "order_no": 16,
+                            "serial_number": null,
+                            "creationId": null,
+                            "sub": null
+                        },
+                        {
+                            "content_original": "4.4 旅游业的国际合作与交流",
+                            "id": "46354411017",
+                            "outline_rank": 2,
+                            "order_no": 17,
+                            "serial_number": null,
+                            "creationId": null,
+                            "sub": null
+                        }
+                    ]
+                },
+                {
+                    "content_original": "5 疫情后旅游业发展的展望",
+                    "id": "46354411018",
+                    "outline_rank": 1,
+                    "order_no": 18,
+                    "serial_number": null,
+                    "creationId": null,
+                    "sub": [
+                        {
+                            "content_original": "5.1 旅游业发展趋势",
+                            "id": "46354411019",
+                            "outline_rank": 2,
+                            "order_no": 19,
+                            "serial_number": null,
+                            "creationId": null,
+                            "sub": null
+                        },
+                        {
+                            "content_original": "5.2 旅游业发展的机遇与挑战",
+                            "id": "46354411020",
+                            "outline_rank": 2,
+                            "order_no": 20,
+                            "serial_number": null,
+                            "creationId": null,
+                            "sub": null
+                        },
+                        {
+                            "content_original": "5.3 旅游业可持续发展的路径与策略",
+                            "id": "46354411021",
+                            "outline_rank": 2,
+                            "order_no": 21,
+                            "serial_number": null,
+                            "creationId": null,
+                            "sub": null
+                        }
+                    ]
+                },
+                {
+                    "content_original": "6 总结与展望",
+                    "id": "46354411022",
+                    "outline_rank": 1,
+                    "order_no": 22,
+                    "serial_number": null,
+                    "creationId": null,
+                    "sub": [
+                        {
+                            "content_original": "6.1 研究成果总结",
+                            "id": "46354411023",
+                            "outline_rank": 2,
+                            "order_no": 23,
+                            "serial_number": null,
+                            "creationId": null,
+                            "sub": null
+                        },
+                        {
+                            "content_original": "6.2 疫情对旅游业影响的启示及未来发展方向的展望",
+                            "id": "46354411024",
+                            "outline_rank": 2,
+                            "order_no": 24,
+                            "serial_number": null,
+                            "creationId": null,
+                            "sub": null
+                        }
+                    ]
+                }
+            ],
+            "id": "1737296709826965505",
+            "wordCount": "14400字",
+            "outlineCount": 17,
+            "newOutlineCount": 17
+        },
+        {
+            "title": "晋西地区旅游业的投资效率研究",
+            "data_type": "22",
+            "school_level": "3",
+            "school": null,
+            "outline": [
+                {
+                    "content_original": "1 导论",
+                    "id": "46763164001",
+                    "outline_rank": 1,
+                    "order_no": 1,
+                    "serial_number": null,
+                    "creationId": null,
+                    "sub": [
+                        {
+                            "content_original": "1.1 研究背景与意义",
+                            "id": "46763164002",
+                            "outline_rank": 2,
+                            "order_no": 2,
+                            "serial_number": null,
+                            "creationId": null,
+                            "sub": null
+                        },
+                        {
+                            "content_original": "1.2 国内外研究综述",
+                            "id": "46763164003",
+                            "outline_rank": 2,
+                            "order_no": 3,
+                            "serial_number": null,
+                            "creationId": null,
+                            "sub": null
+                        },
+                        {
+                            "content_original": "1.3 论文内容及框架",
+                            "id": "46763164004",
+                            "outline_rank": 2,
+                            "order_no": 4,
+                            "serial_number": null,
+                            "creationId": null,
+                            "sub": null
+                        },
+                        {
+                            "content_original": "1.4 研究方法",
+                            "id": "46763164005",
+                            "outline_rank": 2,
+                            "order_no": 5,
+                            "serial_number": null,
+                            "creationId": null,
+                            "sub": null
+                        }
+                    ]
+                },
+                {
+                    "content_original": "2 相关概念辨析及测度模型",
+                    "id": "46763164006",
+                    "outline_rank": 1,
+                    "order_no": 6,
+                    "serial_number": null,
+                    "creationId": null,
+                    "sub": [
+                        {
+                            "content_original": "2.1 相关概念辨析",
+                            "id": "46763164007",
+                            "outline_rank": 2,
+                            "order_no": 7,
+                            "serial_number": null,
+                            "creationId": null,
+                            "sub": null
+                        },
+                        {
+                            "content_original": "2.2 晋西地区旅游业投资效率测度模型",
+                            "id": "46763164008",
+                            "outline_rank": 2,
+                            "order_no": 8,
+                            "serial_number": null,
+                            "creationId": null,
+                            "sub": null
+                        }
+                    ]
+                },
+                {
+                    "content_original": "3 三阶段dea模型搭建与数据选择及采样",
+                    "id": "46763164009",
+                    "outline_rank": 1,
+                    "order_no": 9,
+                    "serial_number": null,
+                    "creationId": null,
+                    "sub": [
+                        {
+                            "content_original": "3.1 三阶段模型构建",
+                            "id": "46763164010",
+                            "outline_rank": 2,
+                            "order_no": 10,
+                            "serial_number": null,
+                            "creationId": null,
+                            "sub": null
+                        },
+                        {
+                            "content_original": "3.2 数据选择",
+                            "id": "46763164011",
+                            "outline_rank": 2,
+                            "order_no": 11,
+                            "serial_number": null,
+                            "creationId": null,
+                            "sub": null
+                        },
+                        {
+                            "content_original": "3.3 数据采样",
+                            "id": "46763164012",
+                            "outline_rank": 2,
+                            "order_no": 12,
+                            "serial_number": null,
+                            "creationId": null,
+                            "sub": null
+                        }
+                    ]
+                },
+                {
+                    "content_original": "4 根据三阶段dea模型分析晋西地区投资效率",
+                    "id": "46763164013",
+                    "outline_rank": 1,
+                    "order_no": 13,
+                    "serial_number": null,
+                    "creationId": null,
+                    "sub": [
+                        {
+                            "content_original": "4.1 第一阶段ccr模型具体分析",
+                            "id": "46763164014",
+                            "outline_rank": 2,
+                            "order_no": 14,
+                            "serial_number": null,
+                            "creationId": null,
+                            "sub": null
+                        },
+                        {
+                            "content_original": "4.2 第二阶段bcc模型具体分析",
+                            "id": "46763164015",
+                            "outline_rank": 2,
+                            "order_no": 15,
+                            "serial_number": null,
+                            "creationId": null,
+                            "sub": null
+                        },
+                        {
+                            "content_original": "4.3 第三阶段sbm模型具体分析",
+                            "id": "46763164016",
+                            "outline_rank": 2,
+                            "order_no": 16,
+                            "serial_number": null,
+                            "creationId": null,
+                            "sub": null
+                        },
+                        {
+                            "content_original": "4.4 三阶段综合结果分析",
+                            "id": "46763164017",
+                            "outline_rank": 2,
+                            "order_no": 17,
+                            "serial_number": null,
+                            "creationId": null,
+                            "sub": null
+                        },
+                        {
+                            "content_original": "4.5 各因素内涵影响分析",
+                            "id": "46763164018",
+                            "outline_rank": 2,
+                            "order_no": 18,
+                            "serial_number": null,
+                            "creationId": null,
+                            "sub": null
+                        },
+                        {
+                            "content_original": "4.6 效率提升路径分析",
+                            "id": "46763164019",
+                            "outline_rank": 2,
+                            "order_no": 19,
+                            "serial_number": null,
+                            "creationId": null,
+                            "sub": null
+                        }
+                    ]
+                },
+                {
+                    "content_original": "5 投资效率研究结果与相关讨论",
+                    "id": "46763164020",
+                    "outline_rank": 1,
+                    "order_no": 20,
+                    "serial_number": null,
+                    "creationId": null,
+                    "sub": [
+                        {
+                            "content_original": "5.1 投资效率的现状和趋势分析",
+                            "id": "46763164021",
+                            "outline_rank": 2,
+                            "order_no": 21,
+                            "serial_number": null,
+                            "creationId": null,
+                            "sub": null
+                        },
+                        {
+                            "content_original": "5.2 影响投资效率的因素分析结果讨论",
+                            "id": "46763164022",
+                            "outline_rank": 2,
+                            "order_no": 22,
+                            "serial_number": null,
+                            "creationId": null,
+                            "sub": null
+                        }
+                    ]
+                }
+            ],
+            "id": "1737296709831159810",
+            "wordCount": "14400字",
+            "outlineCount": 17,
+            "newOutlineCount": 17
+        },
+        {
+            "title": "晋西地区旅游业的投资效率研究",
+            "data_type": "22",
+            "school_level": "3",
+            "school": "山西财经大学",
+            "outline": [
+                {
+                    "content_original": "1 导论",
+                    "id": "59682457002",
+                    "outline_rank": 1,
+                    "order_no": 2,
+                    "serial_number": null,
+                    "creationId": null,
+                    "sub": [
+                        {
+                            "content_original": "1.1 研究背景与意义",
+                            "id": "59682457003",
+                            "outline_rank": 2,
+                            "order_no": 3,
+                            "serial_number": null,
+                            "creationId": null,
+                            "sub": null
+                        },
+                        {
+                            "content_original": "1.2 国内外研究综述",
+                            "id": "59682457004",
+                            "outline_rank": 2,
+                            "order_no": 4,
+                            "serial_number": null,
+                            "creationId": null,
+                            "sub": null
+                        },
+                        {
+                            "content_original": "1.3 论文内容及框架",
+                            "id": "59682457005",
+                            "outline_rank": 2,
+                            "order_no": 5,
+                            "serial_number": null,
+                            "creationId": null,
+                            "sub": null
+                        },
+                        {
+                            "content_original": "1.4 研究方法",
+                            "id": "59682457006",
+                            "outline_rank": 2,
+                            "order_no": 6,
+                            "serial_number": null,
+                            "creationId": null,
+                            "sub": null
+                        }
+                    ]
+                },
+                {
+                    "content_original": "2 相关概念辨析及测度模型",
+                    "id": "59682457007",
+                    "outline_rank": 1,
+                    "order_no": 7,
+                    "serial_number": null,
+                    "creationId": null,
+                    "sub": [
+                        {
+                            "content_original": "2.1 相关概念辨析",
+                            "id": "59682457008",
+                            "outline_rank": 2,
+                            "order_no": 8,
+                            "serial_number": null,
+                            "creationId": null,
+                            "sub": null
+                        },
+                        {
+                            "content_original": "2.2 晋西地区旅游业投资效率测度模型",
+                            "id": "59682457009",
+                            "outline_rank": 2,
+                            "order_no": 9,
+                            "serial_number": null,
+                            "creationId": null,
+                            "sub": null
+                        }
+                    ]
+                },
+                {
+                    "content_original": "3 三阶段dea模型搭建与数据选择及采样",
+                    "id": "59682457010",
+                    "outline_rank": 1,
+                    "order_no": 10,
+                    "serial_number": null,
+                    "creationId": null,
+                    "sub": [
+                        {
+                            "content_original": "3.1 三阶段模型构建",
+                            "id": "59682457011",
+                            "outline_rank": 2,
+                            "order_no": 11,
+                            "serial_number": null,
+                            "creationId": null,
+                            "sub": null
+                        },
+                        {
+                            "content_original": "3.2 数据选择",
+                            "id": "59682457012",
+                            "outline_rank": 2,
+                            "order_no": 12,
+                            "serial_number": null,
+                            "creationId": null,
+                            "sub": null
+                        },
+                        {
+                            "content_original": "3.3 数据采样",
+                            "id": "59682457013",
+                            "outline_rank": 2,
+                            "order_no": 13,
+                            "serial_number": null,
+                            "creationId": null,
+                            "sub": null
+                        }
+                    ]
+                },
+                {
+                    "content_original": "4 根据三阶段dea模型分析晋西地区投资效率",
+                    "id": "59682457014",
+                    "outline_rank": 1,
+                    "order_no": 14,
+                    "serial_number": null,
+                    "creationId": null,
+                    "sub": [
+                        {
+                            "content_original": "4.1 第一阶段ccr模型具体分析",
+                            "id": "59682457015",
+                            "outline_rank": 2,
+                            "order_no": 15,
+                            "serial_number": null,
+                            "creationId": null,
+                            "sub": null
+                        },
+                        {
+                            "content_original": "4.2 第二阶段bcc模型具体分析",
+                            "id": "59682457016",
+                            "outline_rank": 2,
+                            "order_no": 16,
+                            "serial_number": null,
+                            "creationId": null,
+                            "sub": null
+                        },
+                        {
+                            "content_original": "4.3 第三阶段sbm模型具体分析",
+                            "id": "59682457017",
+                            "outline_rank": 2,
+                            "order_no": 17,
+                            "serial_number": null,
+                            "creationId": null,
+                            "sub": null
+                        },
+                        {
+                            "content_original": "4.4 三阶段综合结果分析",
+                            "id": "59682457018",
+                            "outline_rank": 2,
+                            "order_no": 18,
+                            "serial_number": null,
+                            "creationId": null,
+                            "sub": null
+                        },
+                        {
+                            "content_original": "4.5 各因素内涵影响分析",
+                            "id": "59682457019",
+                            "outline_rank": 2,
+                            "order_no": 19,
+                            "serial_number": null,
+                            "creationId": null,
+                            "sub": null
+                        },
+                        {
+                            "content_original": "4.6 效率提升路径分析",
+                            "id": "59682457020",
+                            "outline_rank": 2,
+                            "order_no": 20,
+                            "serial_number": null,
+                            "creationId": null,
+                            "sub": null
+                        }
+                    ]
+                },
+                {
+                    "content_original": "5 投资效率研究结果与相关讨论",
+                    "id": "59682457021",
+                    "outline_rank": 1,
+                    "order_no": 21,
+                    "serial_number": null,
+                    "creationId": null,
+                    "sub": [
+                        {
+                            "content_original": "5.1 投资效率的现状和趋势分析",
+                            "id": "59682457022",
+                            "outline_rank": 2,
+                            "order_no": 22,
+                            "serial_number": null,
+                            "creationId": null,
+                            "sub": null
+                        },
+                        {
+                            "content_original": "5.2 影响投资效率的因素分析结果讨论",
+                            "id": "59682457023",
+                            "outline_rank": 2,
+                            "order_no": 23,
+                            "serial_number": null,
+                            "creationId": null,
+                            "sub": null
+                        }
+                    ]
+                }
+            ],
+            "id": "1737296709839548418",
+            "wordCount": "14400字",
+            "outlineCount": 17,
+            "newOutlineCount": 17
+        },
+        {
+            "title": "后疫情时期复苏旅游业经济的对策",
+            "data_type": "22",
+            "school_level": "3",
+            "school": "扬州工业职业技术学院",
+            "outline": [
+                {
+                    "content_original": "1 绪论",
+                    "id": "250089491000",
+                    "outline_rank": 1,
+                    "order_no": 0,
+                    "serial_number": null,
+                    "creationId": null,
+                    "sub": [
+                        {
+                            "content_original": "1.1 研究背景",
+                            "id": "250089491001",
+                            "outline_rank": 2,
+                            "order_no": 1,
+                            "serial_number": null,
+                            "creationId": null,
+                            "sub": null
+                        },
+                        {
+                            "content_original": "1.2 旅游公共安全管理研究综述",
+                            "id": "250089491002",
+                            "outline_rank": 2,
+                            "order_no": 2,
+                            "serial_number": null,
+                            "creationId": null,
+                            "sub": null
+                        }
+                    ]
+                },
+                {
+                    "content_original": "2 疫情期间旅游业经济现状分析",
+                    "id": "250089491003",
+                    "outline_rank": 1,
+                    "order_no": 3,
+                    "serial_number": null,
+                    "creationId": null,
+                    "sub": [
+                        {
+                            "content_original": "2.1 旅游业经济受损现状",
+                            "id": "250089491004",
+                            "outline_rank": 2,
+                            "order_no": 4,
+                            "serial_number": null,
+                            "creationId": null,
+                            "sub": null
+                        },
+                        {
+                            "content_original": "2.2 旅游业停业规模",
+                            "id": "250089491005",
+                            "outline_rank": 2,
+                            "order_no": 5,
+                            "serial_number": null,
+                            "creationId": null,
+                            "sub": null
+                        }
+                    ]
+                },
+                {
+                    "content_original": "3 疫情后旅游业经济未来发展趋势",
+                    "id": "250089491006",
+                    "outline_rank": 1,
+                    "order_no": 6,
+                    "serial_number": null,
+                    "creationId": null,
+                    "sub": [
+                        {
+                            "content_original": "3.1 新的变化疫情后复苏旅游经济以安心为先",
+                            "id": "250089491007",
+                            "outline_rank": 2,
+                            "order_no": 7,
+                            "serial_number": null,
+                            "creationId": null,
+                            "sub": null
+                        },
+                        {
+                            "content_original": "3.2 新的需求实际到旅游市场竞争核心",
+                            "id": "250089491008",
+                            "outline_rank": 2,
+                            "order_no": 8,
+                            "serial_number": null,
+                            "creationId": null,
+                            "sub": null
+                        },
+                        {
+                            "content_original": "3.3 新的机遇疫情下旅游产品服务的升级和调整",
+                            "id": "250089491009",
+                            "outline_rank": 2,
+                            "order_no": 9,
+                            "serial_number": null,
+                            "creationId": null,
+                            "sub": null
+                        }
+                    ]
+                },
+                {
+                    "content_original": "4 疫情对云南省旅游业经济的影响",
+                    "id": "250089491010",
+                    "outline_rank": 1,
+                    "order_no": 10,
+                    "serial_number": null,
+                    "creationId": null,
+                    "sub": [
+                        {
+                            "content_original": "4.1 疫情对宏观旅游业经济的影响",
+                            "id": "250089491011",
+                            "outline_rank": 2,
+                            "order_no": 11,
+                            "serial_number": null,
+                            "creationId": null,
+                            "sub": [
+                                {
+                                    "content_original": "4.1.1 疫情对旅游业经济的区域范围较广",
+                                    "id": "250089491012",
+                                    "outline_rank": 3,
+                                    "order_no": 12,
+                                    "serial_number": null,
+                                    "creationId": null,
+                                    "sub": null
+                                },
+                                {
+                                    "content_original": "4.1.2 因疫情旅游业停业时间较长",
+                                    "id": "250089491013",
+                                    "outline_rank": 3,
+                                    "order_no": 13,
+                                    "serial_number": null,
+                                    "creationId": null,
+                                    "sub": null
+                                },
+                                {
+                                    "content_original": "4.1.3 疫情对旅游业的附带产业影响较多",
+                                    "id": "250089491014",
+                                    "outline_rank": 3,
+                                    "order_no": 14,
+                                    "serial_number": null,
+                                    "creationId": null,
+                                    "sub": null
+                                }
+                            ]
+                        },
+                        {
+                            "content_original": "4.2 疫情对旅游企业及市场的影响",
+                            "id": "250089491015",
+                            "outline_rank": 2,
+                            "order_no": 15,
+                            "serial_number": null,
+                            "creationId": null,
+                            "sub": null
+                        }
+                    ]
+                },
+                {
+                    "content_original": "5 疫情后期复苏旅游业经济的对策",
+                    "id": "250089491016",
+                    "outline_rank": 1,
+                    "order_no": 16,
+                    "serial_number": null,
+                    "creationId": null,
+                    "sub": [
+                        {
+                            "content_original": "5.1 政府的主导策略",
+                            "id": "250089491017",
+                            "outline_rank": 2,
+                            "order_no": 17,
+                            "serial_number": null,
+                            "creationId": null,
+                            "sub": [
+                                {
+                                    "content_original": "5.1.1 继续加大减税免税与财政补贴的力度",
+                                    "id": "250089491018",
+                                    "outline_rank": 3,
+                                    "order_no": 18,
+                                    "serial_number": null,
+                                    "creationId": null,
+                                    "sub": null
+                                },
+                                {
+                                    "content_original": "5.1.2 出台稳定旅游从业人员的政策",
+                                    "id": "250089491019",
+                                    "outline_rank": 3,
+                                    "order_no": 19,
+                                    "serial_number": null,
+                                    "creationId": null,
+                                    "sub": null
+                                },
+                                {
+                                    "content_original": "5.1.3 消除旅游者恐慌心理重塑秀丽云南旅游形象",
+                                    "id": "250089491020",
+                                    "outline_rank": 3,
+                                    "order_no": 20,
+                                    "serial_number": null,
+                                    "creationId": null,
+                                    "sub": null
+                                }
+                            ]
+                        },
+                        {
+                            "content_original": "5.2 企业的自救方案",
+                            "id": "250089491021",
+                            "outline_rank": 2,
+                            "order_no": 21,
+                            "serial_number": null,
+                            "creationId": null,
+                            "sub": [
+                                {
+                                    "content_original": "5.2.1 要积极有担当地为疫情防控贡献力量",
+                                    "id": "250089491022",
+                                    "outline_rank": 3,
+                                    "order_no": 22,
+                                    "serial_number": null,
+                                    "creationId": null,
+                                    "sub": null
+                                },
+                                {
+                                    "content_original": "5.2.2 积极开展经营自救工",
+                                    "id": "250089491023",
+                                    "outline_rank": 3,
+                                    "order_no": 23,
+                                    "serial_number": null,
+                                    "creationId": null,
+                                    "sub": null
+                                },
+                                {
+                                    "content_original": "5.2.3 做好应对疫情解除后旅游市场的需求和变动",
+                                    "id": "250089491024",
+                                    "outline_rank": 3,
+                                    "order_no": 24,
+                                    "serial_number": null,
+                                    "creationId": null,
+                                    "sub": null
+                                }
+                            ]
+                        }
+                    ]
+                }
+            ],
+            "id": "1737296709847937025",
+            "wordCount": "14400字",
+            "outlineCount": 17,
+            "newOutlineCount": 17
+        },
+        {
+            "title": "旅游业的发展对相关产业及经济的影响",
+            "data_type": "11",
+            "school_level": "3",
+            "school": "长江大学",
+            "outline": [
+                {
+                    "content_original": "1 绪论",
+                    "id": "3142032002",
+                    "outline_rank": 1,
+                    "order_no": 2,
+                    "serial_number": null,
+                    "creationId": null,
+                    "sub": [
+                        {
+                            "content_original": "1.1 引言",
+                            "id": "3142032003",
+                            "outline_rank": 2,
+                            "order_no": 3,
+                            "serial_number": null,
+                            "creationId": null,
+                            "sub": null
+                        },
+                        {
+                            "content_original": "1.2 背景意义",
+                            "id": "3142032004",
+                            "outline_rank": 2,
+                            "order_no": 4,
+                            "serial_number": null,
+                            "creationId": null,
+                            "sub": null
+                        },
+                        {
+                            "content_original": "1.3 文献综述",
+                            "id": "3142032005",
+                            "outline_rank": 2,
+                            "order_no": 5,
+                            "serial_number": null,
+                            "creationId": null,
+                            "sub": null
+                        },
+                        {
+                            "content_original": "1.4 文章结构与技术路线",
+                            "id": "3142032006",
+                            "outline_rank": 2,
+                            "order_no": 6,
+                            "serial_number": null,
+                            "creationId": null,
+                            "sub": null
+                        },
+                        {
+                            "content_original": "1.5 创新点与不足",
+                            "id": "3142032007",
+                            "outline_rank": 2,
+                            "order_no": 7,
+                            "serial_number": null,
+                            "creationId": null,
+                            "sub": null
+                        }
+                    ]
+                },
+                {
+                    "content_original": "2 旅游业的发展状况",
+                    "id": "3142032008",
+                    "outline_rank": 1,
+                    "order_no": 8,
+                    "serial_number": null,
+                    "creationId": null,
+                    "sub": [
+                        {
+                            "content_original": "2.1 中国旅游业发展基础",
+                            "id": "3142032009",
+                            "outline_rank": 2,
+                            "order_no": 9,
+                            "serial_number": null,
+                            "creationId": null,
+                            "sub": null
+                        },
+                        {
+                            "content_original": "2.2 中国旅游业发展前景",
+                            "id": "3142032010",
+                            "outline_rank": 2,
+                            "order_no": 10,
+                            "serial_number": null,
+                            "creationId": null,
+                            "sub": null
+                        },
+                        {
+                            "content_original": "2.3 中国旅游业发展状况",
+                            "id": "3142032011",
+                            "outline_rank": 2,
+                            "order_no": 11,
+                            "serial_number": null,
+                            "creationId": null,
+                            "sub": null
+                        }
+                    ]
+                },
+                {
+                    "content_original": "3 研究数据与预备知识",
+                    "id": "3142032012",
+                    "outline_rank": 1,
+                    "order_no": 12,
+                    "serial_number": null,
+                    "creationId": null,
+                    "sub": [
+                        {
+                            "content_original": "3.1 数据与指标",
+                            "id": "3142032013",
+                            "outline_rank": 2,
+                            "order_no": 13,
+                            "serial_number": null,
+                            "creationId": null,
+                            "sub": null
+                        },
+                        {
+                            "content_original": "3.2 数据说明",
+                            "id": "3142032014",
+                            "outline_rank": 2,
+                            "order_no": 14,
+                            "serial_number": null,
+                            "creationId": null,
+                            "sub": null
+                        },
+                        {
+                            "content_original": "3.3 预备知识",
+                            "id": "3142032015",
+                            "outline_rank": 2,
+                            "order_no": 15,
+                            "serial_number": null,
+                            "creationId": null,
+                            "sub": null
+                        }
+                    ]
+                },
+                {
+                    "content_original": "4 实证分析",
+                    "id": "3142032016",
+                    "outline_rank": 1,
+                    "order_no": 16,
+                    "serial_number": null,
+                    "creationId": null,
+                    "sub": [
+                        {
+                            "content_original": "4.1 描述分析",
+                            "id": "3142032017",
+                            "outline_rank": 2,
+                            "order_no": 17,
+                            "serial_number": null,
+                            "creationId": null,
+                            "sub": null
+                        },
+                        {
+                            "content_original": "4.2 聚类分析",
+                            "id": "3142032018",
+                            "outline_rank": 2,
+                            "order_no": 18,
+                            "serial_number": null,
+                            "creationId": null,
+                            "sub": null
+                        },
+                        {
+                            "content_original": "4.3 LSTM神经网络",
+                            "id": "3142032019",
+                            "outline_rank": 2,
+                            "order_no": 19,
+                            "serial_number": null,
+                            "creationId": null,
+                            "sub": null
+                        }
+                    ]
+                },
+                {
+                    "content_original": "5 结论与建议",
+                    "id": "3142032020",
+                    "outline_rank": 1,
+                    "order_no": 20,
+                    "serial_number": null,
+                    "creationId": null,
+                    "sub": [
+                        {
+                            "content_original": "5.1 研究结论",
+                            "id": "3142032021",
+                            "outline_rank": 2,
+                            "order_no": 21,
+                            "serial_number": null,
+                            "creationId": null,
+                            "sub": null
+                        },
+                        {
+                            "content_original": "5.2 提出建议",
+                            "id": "3142032022",
+                            "outline_rank": 2,
+                            "order_no": 22,
+                            "serial_number": null,
+                            "creationId": null,
+                            "sub": null
+                        }
+                    ]
+                }
+            ],
+            "id": "1737296709751468034",
+            "wordCount": "13700字",
+            "outlineCount": 16,
+            "newOutlineCount": 16
+        },
+        {
+            "title": "旅游业对当地经济的影响分析",
+            "data_type": "22",
+            "school_level": "3",
+            "school": null,
+            "outline": [
+                {
+                    "content_original": "1 蒙阴县旅游业发展状况",
+                    "id": "64301016000",
+                    "outline_rank": 1,
+                    "order_no": 0,
+                    "serial_number": null,
+                    "creationId": null,
+                    "sub": [
+                        {
+                            "content_original": "1.1 蒙阴县旅游资源概述",
+                            "id": "64301016001",
+                            "outline_rank": 2,
+                            "order_no": 1,
+                            "serial_number": null,
+                            "creationId": null,
+                            "sub": null
+                        },
+                        {
+                            "content_original": "1.2 蒙阴县旅游发展趋势",
+                            "id": "64301016002",
+                            "outline_rank": 2,
+                            "order_no": 2,
+                            "serial_number": null,
+                            "creationId": null,
+                            "sub": null
+                        }
+                    ]
+                },
+                {
+                    "content_original": "2 蒙阴县旅游业对经济发展的推动作用",
+                    "id": "64301016003",
+                    "outline_rank": 1,
+                    "order_no": 3,
+                    "serial_number": null,
+                    "creationId": null,
+                    "sub": [
+                        {
+                            "content_original": "2.1 蒙阴县旅游业的发展能够促进经济增长",
+                            "id": "64301016004",
+                            "outline_rank": 2,
+                            "order_no": 4,
+                            "serial_number": null,
+                            "creationId": null,
+                            "sub": null
+                        },
+                        {
+                            "content_original": "2.2 蒙阴县旅游业的发展能够促进产业结构的调整",
+                            "id": "64301016005",
+                            "outline_rank": 2,
+                            "order_no": 5,
+                            "serial_number": null,
+                            "creationId": null,
+                            "sub": null
+                        },
+                        {
+                            "content_original": "2.3 蒙阴县旅游业的发展能够提升就业率,增加农民收入",
+                            "id": "64301016006",
+                            "outline_rank": 2,
+                            "order_no": 6,
+                            "serial_number": null,
+                            "creationId": null,
+                            "sub": null
+                        },
+                        {
+                            "content_original": "2.4 蒙阴县旅游业的发展能够提高人口素质",
+                            "id": "64301016007",
+                            "outline_rank": 2,
+                            "order_no": 7,
+                            "serial_number": null,
+                            "creationId": null,
+                            "sub": null
+                        }
+                    ]
+                },
+                {
+                    "content_original": "3 蒙阴县旅游业对经济的负面影响",
+                    "id": "64301016008",
+                    "outline_rank": 1,
+                    "order_no": 8,
+                    "serial_number": null,
+                    "creationId": null,
+                    "sub": [
+                        {
+                            "content_original": "3.1 旅游业的脆弱性对经济具有不稳定性",
+                            "id": "64301016009",
+                            "outline_rank": 2,
+                            "order_no": 9,
+                            "serial_number": null,
+                            "creationId": null,
+                            "sub": null
+                        },
+                        {
+                            "content_original": "3.2 旅游业的单一性对经济具有制约性",
+                            "id": "64301016010",
+                            "outline_rank": 2,
+                            "order_no": 10,
+                            "serial_number": null,
+                            "creationId": null,
+                            "sub": null
+                        },
+                        {
+                            "content_original": "3.3 旅游业的扶持力度不足对经济具有限制性",
+                            "id": "64301016011",
+                            "outline_rank": 2,
+                            "order_no": 11,
+                            "serial_number": null,
+                            "creationId": null,
+                            "sub": null
+                        },
+                        {
+                            "content_original": "3.4 旅游业的环境破坏对经济具有抑制性",
+                            "id": "64301016012",
+                            "outline_rank": 2,
+                            "order_no": 12,
+                            "serial_number": null,
+                            "creationId": null,
+                            "sub": null
+                        },
+                        {
+                            "content_original": "3.5 旅游业的人才培养不充分对经济创新具有削弱性",
+                            "id": "64301016013",
+                            "outline_rank": 2,
+                            "order_no": 13,
+                            "serial_number": null,
+                            "creationId": null,
+                            "sub": null
+                        }
+                    ]
+                },
+                {
+                    "content_original": "4 蒙阴县旅游业对经济可持续发展的对策",
+                    "id": "64301016014",
+                    "outline_rank": 1,
+                    "order_no": 14,
+                    "serial_number": null,
+                    "creationId": null,
+                    "sub": [
+                        {
+                            "content_original": "4.1 科学规划和多元化发展",
+                            "id": "64301016015",
+                            "outline_rank": 2,
+                            "order_no": 15,
+                            "serial_number": null,
+                            "creationId": null,
+                            "sub": null
+                        },
+                        {
+                            "content_original": "4.2 强化政策扶持,加大资金支持",
+                            "id": "64301016016",
+                            "outline_rank": 2,
+                            "order_no": 16,
+                            "serial_number": null,
+                            "creationId": null,
+                            "sub": null
+                        },
+                        {
+                            "content_original": "4.3 树立环保意识,重视环境的重要性",
+                            "id": "64301016017",
+                            "outline_rank": 2,
+                            "order_no": 17,
+                            "serial_number": null,
+                            "creationId": null,
+                            "sub": null
+                        },
+                        {
+                            "content_original": "4.4 创建旅游人才队伍,加强旅游科技运用",
+                            "id": "64301016018",
+                            "outline_rank": 2,
+                            "order_no": 18,
+                            "serial_number": null,
+                            "creationId": null,
+                            "sub": null
+                        }
+                    ]
+                },
+                {
+                    "content_original": "5 结论",
+                    "id": "64301016019",
+                    "outline_rank": 1,
+                    "order_no": 19,
+                    "serial_number": null,
+                    "creationId": null,
+                    "sub": null
+                }
+            ],
+            "id": "1737296709764050945",
+            "wordCount": "13700字",
+            "outlineCount": 16,
+            "newOutlineCount": 16
+        },
+        {
+            "title": "我国旅游业的发展前景",
+            "data_type": "22",
+            "school_level": "3",
+            "school": "江苏师范大学",
+            "outline": [
+                {
+                    "content_original": "1 旅游业",
+                    "id": "251459210000",
+                    "outline_rank": 1,
+                    "order_no": 0,
+                    "serial_number": null,
+                    "creationId": null,
+                    "sub": [
+                        {
+                            "content_original": "1.1 定义",
+                            "id": "251459210001",
+                            "outline_rank": 2,
+                            "order_no": 1,
+                            "serial_number": null,
+                            "creationId": null,
+                            "sub": null
+                        },
+                        {
+                            "content_original": "1.2 基本特征",
+                            "id": "251459210002",
+                            "outline_rank": 2,
+                            "order_no": 2,
+                            "serial_number": null,
+                            "creationId": null,
+                            "sub": null
+                        },
+                        {
+                            "content_original": "1.3 组成要素",
+                            "id": "251459210003",
+                            "outline_rank": 2,
+                            "order_no": 3,
+                            "serial_number": null,
+                            "creationId": null,
+                            "sub": null
+                        }
+                    ]
+                },
+                {
+                    "content_original": "2 旅行社",
+                    "id": "251459210004",
+                    "outline_rank": 1,
+                    "order_no": 4,
+                    "serial_number": null,
+                    "creationId": null,
+                    "sub": [
+                        {
+                            "content_original": "2.1 旅行社职能转变",
+                            "id": "251459210005",
+                            "outline_rank": 2,
+                            "order_no": 5,
+                            "serial_number": null,
+                            "creationId": null,
+                            "sub": null
+                        },
+                        {
+                            "content_original": "2.2 介绍能更好满足个人需求的旅游产品",
+                            "id": "251459210006",
+                            "outline_rank": 2,
+                            "order_no": 6,
+                            "serial_number": null,
+                            "creationId": null,
+                            "sub": null
+                        }
+                    ]
+                },
+                {
+                    "content_original": "3 行业现状",
+                    "id": "251459210007",
+                    "outline_rank": 1,
+                    "order_no": 7,
+                    "serial_number": null,
+                    "creationId": null,
+                    "sub": [
+                        {
+                            "content_original": "3.1 旅游产业正在成为经济增长的重要引擎",
+                            "id": "251459210008",
+                            "outline_rank": 2,
+                            "order_no": 8,
+                            "serial_number": null,
+                            "creationId": null,
+                            "sub": null
+                        },
+                        {
+                            "content_original": "3.2 国内旅游市场继续平稳增长占总收入比重85以上",
+                            "id": "251459210009",
+                            "outline_rank": 2,
+                            "order_no": 9,
+                            "serial_number": null,
+                            "creationId": null,
+                            "sub": null
+                        },
+                        {
+                            "content_original": "3.3 跨境旅游成为新热潮2018年出境旅游人数首超入境人数",
+                            "id": "251459210010",
+                            "outline_rank": 2,
+                            "order_no": 10,
+                            "serial_number": null,
+                            "creationId": null,
+                            "sub": null
+                        },
+                        {
+                            "content_original": "3.4 2019年中国旅行社数量超38万家",
+                            "id": "251459210011",
+                            "outline_rank": 2,
+                            "order_no": 11,
+                            "serial_number": null,
+                            "creationId": null,
+                            "sub": null
+                        }
+                    ]
+                },
+                {
+                    "content_original": "4 新阶段新特征",
+                    "id": "251459210012",
+                    "outline_rank": 1,
+                    "order_no": 12,
+                    "serial_number": null,
+                    "creationId": null,
+                    "sub": [
+                        {
+                            "content_original": "4.1 加快升级",
+                            "id": "251459210013",
+                            "outline_rank": 2,
+                            "order_no": 13,
+                            "serial_number": null,
+                            "creationId": null,
+                            "sub": null
+                        },
+                        {
+                            "content_original": "4.2 市场继续增长",
+                            "id": "251459210014",
+                            "outline_rank": 2,
+                            "order_no": 14,
+                            "serial_number": null,
+                            "creationId": null,
+                            "sub": null
+                        },
+                        {
+                            "content_original": "4.3 多元化发展",
+                            "id": "251459210015",
+                            "outline_rank": 2,
+                            "order_no": 15,
+                            "serial_number": null,
+                            "creationId": null,
+                            "sub": null
+                        },
+                        {
+                            "content_original": "4.4 对外开放加快",
+                            "id": "251459210016",
+                            "outline_rank": 2,
+                            "order_no": 16,
+                            "serial_number": null,
+                            "creationId": null,
+                            "sub": null
+                        },
+                        {
+                            "content_original": "4.5 相关设施需求",
+                            "id": "251459210017",
+                            "outline_rank": 2,
+                            "order_no": 17,
+                            "serial_number": null,
+                            "creationId": null,
+                            "sub": null
+                        }
+                    ]
+                },
+                {
+                    "content_original": "5 发展前景",
+                    "id": "251459210018",
+                    "outline_rank": 1,
+                    "order_no": 18,
+                    "serial_number": null,
+                    "creationId": null,
+                    "sub": [
+                        {
+                            "content_original": "5.1 前瞻观点",
+                            "id": "251459210019",
+                            "outline_rank": 2,
+                            "order_no": 19,
+                            "serial_number": null,
+                            "creationId": null,
+                            "sub": null
+                        },
+                        {
+                            "content_original": "5.2 展望",
+                            "id": "251459210020",
+                            "outline_rank": 2,
+                            "order_no": 20,
+                            "serial_number": null,
+                            "creationId": null,
+                            "sub": null
+                        }
+                    ]
+                }
+            ],
+            "id": "1737296709793411074",
+            "wordCount": "13700字",
+            "outlineCount": 16,
+            "newOutlineCount": 16
+        },
+        {
+            "title": "区域旅游业竞争力研究 ——以甘肃省为例",
+            "data_type": "11",
+            "school_level": "3",
+            "school": "西北师范大学",
+            "outline": [
+                {
+                    "content_original": "1 研究背景与框架",
+                    "id": "28386135003",
+                    "outline_rank": 1,
+                    "order_no": 3,
+                    "serial_number": null,
+                    "creationId": null,
+                    "sub": [
+                        {
+                            "content_original": "1.1 研究背景",
+                            "id": "28386135004",
+                            "outline_rank": 2,
+                            "order_no": 4,
+                            "serial_number": null,
+                            "creationId": null,
+                            "sub": null
+                        },
+                        {
+                            "content_original": "1.2 研究框架",
+                            "id": "28386135005",
+                            "outline_rank": 2,
+                            "order_no": 5,
+                            "serial_number": null,
+                            "creationId": null,
+                            "sub": null
+                        }
+                    ]
+                },
+                {
+                    "content_original": "2 区域旅游业竞争力研究的理论基础",
+                    "id": "28386135006",
+                    "outline_rank": 1,
+                    "order_no": 6,
+                    "serial_number": null,
+                    "creationId": null,
+                    "sub": [
+                        {
+                            "content_original": "2.1 波特产业竞争理论",
+                            "id": "28386135007",
+                            "outline_rank": 2,
+                            "order_no": 7,
+                            "serial_number": null,
+                            "creationId": null,
+                            "sub": null
+                        },
+                        {
+                            "content_original": "2.2 旅游业可持续发展理论",
+                            "id": "28386135008",
+                            "outline_rank": 2,
+                            "order_no": 8,
+                            "serial_number": null,
+                            "creationId": null,
+                            "sub": null
+                        },
+                        {
+                            "content_original": "2.3 区域旅游系统理论",
+                            "id": "28386135009",
+                            "outline_rank": 2,
+                            "order_no": 9,
+                            "serial_number": null,
+                            "creationId": null,
+                            "sub": null
+                        }
+                    ]
+                },
+                {
+                    "content_original": "3 区域旅游业竞争力定性研究",
+                    "id": "28386135010",
+                    "outline_rank": 1,
+                    "order_no": 10,
+                    "serial_number": null,
+                    "creationId": null,
+                    "sub": [
+                        {
+                            "content_original": "3.1 区域旅游业竞争力研究定位",
+                            "id": "28386135011",
+                            "outline_rank": 2,
+                            "order_no": 11,
+                            "serial_number": null,
+                            "creationId": null,
+                            "sub": null
+                        },
+                        {
+                            "content_original": "3.2 区域旅游业竞争的产业驱动结构",
+                            "id": "28386135012",
+                            "outline_rank": 2,
+                            "order_no": 12,
+                            "serial_number": null,
+                            "creationId": null,
+                            "sub": null
+                        },
+                        {
+                            "content_original": "3.3 区域旅游业竞争力要素结构",
+                            "id": "28386135013",
+                            "outline_rank": 2,
+                            "order_no": 13,
+                            "serial_number": null,
+                            "creationId": null,
+                            "sub": null
+                        }
+                    ]
+                },
+                {
+                    "content_original": "4 区域旅游业竞争力量化研究",
+                    "id": "28386135014",
+                    "outline_rank": 1,
+                    "order_no": 14,
+                    "serial_number": null,
+                    "creationId": null,
+                    "sub": [
+                        {
+                            "content_original": "4.1 区域旅游业竞争力评价指标体系的构建",
+                            "id": "28386135015",
+                            "outline_rank": 2,
+                            "order_no": 15,
+                            "serial_number": null,
+                            "creationId": null,
+                            "sub": null
+                        },
+                        {
+                            "content_original": "4.2 区域旅游业竞争力评价指标权重设置",
+                            "id": "28386135016",
+                            "outline_rank": 2,
+                            "order_no": 16,
+                            "serial_number": null,
+                            "creationId": null,
+                            "sub": null
+                        },
+                        {
+                            "content_original": "4.3 区域旅游业竞争力评价指标量化与处理",
+                            "id": "28386135017",
+                            "outline_rank": 2,
+                            "order_no": 17,
+                            "serial_number": null,
+                            "creationId": null,
+                            "sub": null
+                        },
+                        {
+                            "content_original": "4.4 区域旅游业竞争力综合评价值的计算",
+                            "id": "28386135018",
+                            "outline_rank": 2,
+                            "order_no": 18,
+                            "serial_number": null,
+                            "creationId": null,
+                            "sub": null
+                        }
+                    ]
+                },
+                {
+                    "content_original": "5 甘肃省旅游业竞争力研究",
+                    "id": "28386135019",
+                    "outline_rank": 1,
+                    "order_no": 19,
+                    "serial_number": null,
+                    "creationId": null,
+                    "sub": [
+                        {
+                            "content_original": "5.1 甘肃省旅游业竞争的区域驱动结构",
+                            "id": "28386135020",
+                            "outline_rank": 2,
+                            "order_no": 20,
+                            "serial_number": null,
+                            "creationId": null,
+                            "sub": null
+                        },
+                        {
+                            "content_original": "5.2 甘肃省旅游业竞争力在西北地区的比较",
+                            "id": "28386135021",
+                            "outline_rank": 2,
+                            "order_no": 21,
+                            "serial_number": null,
+                            "creationId": null,
+                            "sub": null
+                        },
+                        {
+                            "content_original": "5.3 甘肃省旅游业竞争力的培育",
+                            "id": "28386135022",
+                            "outline_rank": 2,
+                            "order_no": 22,
+                            "serial_number": null,
+                            "creationId": null,
+                            "sub": null
+                        }
+                    ]
+                },
+                {
+                    "content_original": "6 结语",
+                    "id": "28386135023",
+                    "outline_rank": 1,
+                    "order_no": 23,
+                    "serial_number": null,
+                    "creationId": null,
+                    "sub": null
+                }
+            ],
+            "id": "1737296709797605378",
+            "wordCount": "13700字",
+            "outlineCount": 16,
+            "newOutlineCount": 16
+        },
+        {
+            "title": "后疫情时代国内旅游业发展状况",
+            "data_type": "22",
+            "school_level": "3",
+            "school": null,
+            "outline": [
+                {
+                    "content_original": "1 后疫情时代国内旅游业发展状况",
+                    "id": "51850580001",
+                    "outline_rank": 1,
+                    "order_no": 1,
+                    "serial_number": null,
+                    "creationId": null,
+                    "sub": [
+                        {
+                            "content_original": "1.1 疫情冲击下旅游业受创严重",
+                            "id": "51850580002",
+                            "outline_rank": 2,
+                            "order_no": 2,
+                            "serial_number": null,
+                            "creationId": null,
+                            "sub": null
+                        },
+                        {
+                            "content_original": "1.2 后疫情时代旅游业持续回暖",
+                            "id": "51850580003",
+                            "outline_rank": 2,
+                            "order_no": 3,
+                            "serial_number": null,
+                            "creationId": null,
+                            "sub": null
+                        }
+                    ]
+                },
+                {
+                    "content_original": "2 自媒体的兴起与特点",
+                    "id": "51850580004",
+                    "outline_rank": 1,
+                    "order_no": 4,
+                    "serial_number": null,
+                    "creationId": null,
+                    "sub": null
+                },
+                {
+                    "content_original": "3 旅游业传统的经营方式的优点和缺陷",
+                    "id": "51850580005",
+                    "outline_rank": 1,
+                    "order_no": 5,
+                    "serial_number": null,
+                    "creationId": null,
+                    "sub": [
+                        {
+                            "content_original": "3.1 旅游业的传统营销模式",
+                            "id": "51850580006",
+                            "outline_rank": 2,
+                            "order_no": 6,
+                            "serial_number": null,
+                            "creationId": null,
+                            "sub": null
+                        },
+                        {
+                            "content_original": "3.2 旅游业传统营销模式的特点",
+                            "id": "51850580007",
+                            "outline_rank": 2,
+                            "order_no": 7,
+                            "serial_number": null,
+                            "creationId": null,
+                            "sub": [
+                                {
+                                    "content_original": "3.2.1 旅游市场营销组合因素的可控性",
+                                    "id": "51850580008",
+                                    "outline_rank": 3,
+                                    "order_no": 8,
+                                    "serial_number": null,
+                                    "creationId": null,
+                                    "sub": null
+                                },
+                                {
+                                    "content_original": "3.2.2 旅游市场营销组合的动态性",
+                                    "id": "51850580009",
+                                    "outline_rank": 3,
+                                    "order_no": 9,
+                                    "serial_number": null,
+                                    "creationId": null,
+                                    "sub": null
+                                },
+                                {
+                                    "content_original": "3.2.3 旅游市场营销组合的多层次性",
+                                    "id": "51850580010",
+                                    "outline_rank": 3,
+                                    "order_no": 10,
+                                    "serial_number": null,
+                                    "creationId": null,
+                                    "sub": null
+                                }
+                            ]
+                        },
+                        {
+                            "content_original": "3.3 自媒体时代下传统营销模式的不足",
+                            "id": "51850580011",
+                            "outline_rank": 2,
+                            "order_no": 11,
+                            "serial_number": null,
+                            "creationId": null,
+                            "sub": [
+                                {
+                                    "content_original": "3.3.1 传统的营销模式",
+                                    "id": "51850580012",
+                                    "outline_rank": 3,
+                                    "order_no": 12,
+                                    "serial_number": null,
+                                    "creationId": null,
+                                    "sub": null
+                                },
+                                {
+                                    "content_original": "3.3.2 地域的限制",
+                                    "id": "51850580013",
+                                    "outline_rank": 3,
+                                    "order_no": 13,
+                                    "serial_number": null,
+                                    "creationId": null,
+                                    "sub": null
+                                },
+                                {
+                                    "content_original": "3.3.3 营销的成本",
+                                    "id": "51850580014",
+                                    "outline_rank": 3,
+                                    "order_no": 14,
+                                    "serial_number": null,
+                                    "creationId": null,
+                                    "sub": null
+                                }
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "content_original": "4 自媒体旅游营销和传统营销的对比",
+                    "id": "51850580015",
+                    "outline_rank": 1,
+                    "order_no": 15,
+                    "serial_number": null,
+                    "creationId": null,
+                    "sub": null
+                },
+                {
+                    "content_original": "5 互联网自媒体对现代旅游营销的影响",
+                    "id": "51850580016",
+                    "outline_rank": 1,
+                    "order_no": 16,
+                    "serial_number": null,
+                    "creationId": null,
+                    "sub": null
+                },
+                {
+                    "content_original": "6 借助自媒体实现旅游营销模式的发展该怎么做",
+                    "id": "51850580017",
+                    "outline_rank": 1,
+                    "order_no": 17,
+                    "serial_number": null,
+                    "creationId": null,
+                    "sub": [
+                        {
+                            "content_original": "6.1 加强运作策略的创新,吸引自媒体用户的关注",
+                            "id": "51850580018",
+                            "outline_rank": 2,
+                            "order_no": 18,
+                            "serial_number": null,
+                            "creationId": null,
+                            "sub": null
+                        },
+                        {
+                            "content_original": "6.2 加强设计策略创新,丰富营销的手段",
+                            "id": "51850580019",
+                            "outline_rank": 2,
+                            "order_no": 19,
+                            "serial_number": null,
+                            "creationId": null,
+                            "sub": null
+                        },
+                        {
+                            "content_original": "6.3 培养实用型自媒体营销人才",
+                            "id": "51850580020",
+                            "outline_rank": 2,
+                            "order_no": 20,
+                            "serial_number": null,
+                            "creationId": null,
+                            "sub": null
+                        },
+                        {
+                            "content_original": "6.4 加强品牌自媒体影响手段与力度",
+                            "id": "51850580021",
+                            "outline_rank": 2,
+                            "order_no": 21,
+                            "serial_number": null,
+                            "creationId": null,
+                            "sub": null
+                        }
+                    ]
+                }
+            ],
+            "id": "1737296709814382593",
+            "wordCount": "13700字",
+            "outlineCount": 16,
+            "newOutlineCount": 16
+        },
+        {
+            "title": "新时代西部大开发背景下——西部地区旅游业发展策略研究",
+            "data_type": "22",
+            "school_level": "3",
+            "school": "常州工业职业技术学院",
+            "outline": [
+                {
+                    "content_original": "1 西部大开发之于旅游业发展的关系",
+                    "id": "251021314003",
+                    "outline_rank": 1,
+                    "order_no": 3,
+                    "serial_number": null,
+                    "creationId": null,
+                    "sub": [
+                        {
+                            "content_original": "1.1 我国西部大开发战略的相关概念",
+                            "id": "251021314004",
+                            "outline_rank": 2,
+                            "order_no": 4,
+                            "serial_number": null,
+                            "creationId": null,
+                            "sub": null
+                        },
+                        {
+                            "content_original": "1.2 旅游业的相关概念",
+                            "id": "251021314005",
+                            "outline_rank": 2,
+                            "order_no": 5,
+                            "serial_number": null,
+                            "creationId": null,
+                            "sub": null
+                        },
+                        {
+                            "content_original": "1.3 西部大开发与旅游业的发展相辅相成",
+                            "id": "251021314006",
+                            "outline_rank": 2,
+                            "order_no": 6,
+                            "serial_number": null,
+                            "creationId": null,
+                            "sub": null
+                        }
+                    ]
+                },
+                {
+                    "content_original": "2 发展西部地区旅游业的重要意义",
+                    "id": "251021314007",
+                    "outline_rank": 1,
+                    "order_no": 7,
+                    "serial_number": null,
+                    "creationId": null,
+                    "sub": [
+                        {
+                            "content_original": "2.1 有利于加强民族融合促进中西部交流",
+                            "id": "251021314008",
+                            "outline_rank": 2,
+                            "order_no": 8,
+                            "serial_number": null,
+                            "creationId": null,
+                            "sub": null
+                        },
+                        {
+                            "content_original": "2.2 有利于增加西部地区就业脱贫致富",
+                            "id": "251021314009",
+                            "outline_rank": 2,
+                            "order_no": 9,
+                            "serial_number": null,
+                            "creationId": null,
+                            "sub": null
+                        },
+                        {
+                            "content_original": "2.3 加强国家经济独立性拓展西部地区旅游新格局",
+                            "id": "251021314010",
+                            "outline_rank": 2,
+                            "order_no": 10,
+                            "serial_number": null,
+                            "creationId": null,
+                            "sub": null
+                        },
+                        {
+                            "content_original": "2.4 营造引人入胜的旅游名片树立国际舞台良好的国家形象",
+                            "id": "251021314011",
+                            "outline_rank": 2,
+                            "order_no": 11,
+                            "serial_number": null,
+                            "creationId": null,
+                            "sub": null
+                        }
+                    ]
+                },
+                {
+                    "content_original": "3 新时代西部地区旅游业发展中的优势与劣势",
+                    "id": "251021314012",
+                    "outline_rank": 1,
+                    "order_no": 12,
+                    "serial_number": null,
+                    "creationId": null,
+                    "sub": [
+                        {
+                            "content_original": "3.1 西部地区旅游业发展的优势",
+                            "id": "251021314013",
+                            "outline_rank": 2,
+                            "order_no": 13,
+                            "serial_number": null,
+                            "creationId": null,
+                            "sub": null
+                        },
+                        {
+                            "content_original": "3.2 西部地区旅游业发展的劣势",
+                            "id": "251021314014",
+                            "outline_rank": 2,
+                            "order_no": 14,
+                            "serial_number": null,
+                            "creationId": null,
+                            "sub": null
+                        }
+                    ]
+                },
+                {
+                    "content_original": "4 新时代西部大开发背景下对西部地区旅游业发展的要求",
+                    "id": "251021314015",
+                    "outline_rank": 1,
+                    "order_no": 15,
+                    "serial_number": null,
+                    "creationId": null,
+                    "sub": [
+                        {
+                            "content_original": "4.1 树立新观念统筹各区域协调发展",
+                            "id": "251021314016",
+                            "outline_rank": 2,
+                            "order_no": 16,
+                            "serial_number": null,
+                            "creationId": null,
+                            "sub": null
+                        },
+                        {
+                            "content_original": "4.2 突出当地特色加强西部地区对外开放",
+                            "id": "251021314017",
+                            "outline_rank": 2,
+                            "order_no": 17,
+                            "serial_number": null,
+                            "creationId": null,
+                            "sub": null
+                        }
+                    ]
+                },
+                {
+                    "content_original": "5 新时代西部大开发背景下西部地区旅游业发展策略",
+                    "id": "251021314018",
+                    "outline_rank": 1,
+                    "order_no": 18,
+                    "serial_number": null,
+                    "creationId": null,
+                    "sub": [
+                        {
+                            "content_original": "5.1 努力改变西部地区的思想观念",
+                            "id": "251021314019",
+                            "outline_rank": 2,
+                            "order_no": 19,
+                            "serial_number": null,
+                            "creationId": null,
+                            "sub": null
+                        },
+                        {
+                            "content_original": "5.2 逐步完善基础设施对接东部",
+                            "id": "251021314020",
+                            "outline_rank": 2,
+                            "order_no": 20,
+                            "serial_number": null,
+                            "creationId": null,
+                            "sub": null
+                        },
+                        {
+                            "content_original": "5.3 调整产业结构发展西部地区特色旅游业",
+                            "id": "251021314021",
+                            "outline_rank": 2,
+                            "order_no": 21,
+                            "serial_number": null,
+                            "creationId": null,
+                            "sub": null
+                        },
+                        {
+                            "content_original": "5.4 借助广大新媒体平台打造专属西部地区的旅游名片",
+                            "id": "251021314022",
+                            "outline_rank": 2,
+                            "order_no": 22,
+                            "serial_number": null,
+                            "creationId": null,
+                            "sub": null
+                        }
+                    ]
+                }
+            ],
+            "id": "1737296709734690817",
+            "wordCount": "13000字",
+            "outlineCount": 15,
+            "newOutlineCount": 15
+        },
+        {
+            "title": "中国旅游业的区域差异分析",
+            "data_type": "22",
+            "school_level": "3",
+            "school": "汉口学院",
+            "outline": [
+                {
+                    "content_original": "1 绪论",
+                    "id": "50250149000",
+                    "outline_rank": 1,
+                    "order_no": 0,
+                    "serial_number": null,
+                    "creationId": null,
+                    "sub": [
+                        {
+                            "content_original": "1.1 研究的背景及意义",
+                            "id": "50250149001",
+                            "outline_rank": 2,
+                            "order_no": 1,
+                            "serial_number": null,
+                            "creationId": null,
+                            "sub": [
+                                {
+                                    "content_original": "1.1.1 研究的背景",
+                                    "id": "50250149002",
+                                    "outline_rank": 3,
+                                    "order_no": 2,
+                                    "serial_number": null,
+                                    "creationId": null,
+                                    "sub": null
+                                },
+                                {
+                                    "content_original": "1.1.2 研究的意义",
+                                    "id": "50250149003",
+                                    "outline_rank": 3,
+                                    "order_no": 3,
+                                    "serial_number": null,
+                                    "creationId": null,
+                                    "sub": null
+                                }
+                            ]
+                        },
+                        {
+                            "content_original": "1.2 国内外研究现状",
+                            "id": "50250149004",
+                            "outline_rank": 2,
+                            "order_no": 4,
+                            "serial_number": null,
+                            "creationId": null,
+                            "sub": [
+                                {
+                                    "content_original": "1.2.1 国外关于旅游发展区域差异的研究",
+                                    "id": "50250149005",
+                                    "outline_rank": 3,
+                                    "order_no": 5,
+                                    "serial_number": null,
+                                    "creationId": null,
+                                    "sub": null
+                                },
+                                {
+                                    "content_original": "1.2.2 国内关于旅游发展区域差异的研究",
+                                    "id": "50250149006",
+                                    "outline_rank": 3,
+                                    "order_no": 6,
+                                    "serial_number": null,
+                                    "creationId": null,
+                                    "sub": null
+                                }
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "content_original": "2 中国旅游业的区域差异分析",
+                    "id": "50250149007",
+                    "outline_rank": 1,
+                    "order_no": 7,
+                    "serial_number": null,
+                    "creationId": null,
+                    "sub": [
+                        {
+                            "content_original": "2.1 四大经济区内部旅游竞争力差异",
+                            "id": "50250149008",
+                            "outline_rank": 2,
+                            "order_no": 8,
+                            "serial_number": null,
+                            "creationId": null,
+                            "sub": null
+                        },
+                        {
+                            "content_original": "2.2 中国旅游业区域发展空间分布情况",
+                            "id": "50250149009",
+                            "outline_rank": 2,
+                            "order_no": 9,
+                            "serial_number": null,
+                            "creationId": null,
+                            "sub": null
+                        }
+                    ]
+                },
+                {
+                    "content_original": "3 中国旅游业的区域差异的原因分析",
+                    "id": "50250149010",
+                    "outline_rank": 1,
+                    "order_no": 10,
+                    "serial_number": null,
+                    "creationId": null,
+                    "sub": [
+                        {
+                            "content_original": "3.1 区域旅游业经济发展水平的差异",
+                            "id": "50250149011",
+                            "outline_rank": 2,
+                            "order_no": 11,
+                            "serial_number": null,
+                            "creationId": null,
+                            "sub": null
+                        },
+                        {
+                            "content_original": "3.2 地方旅游发展政策的力度差异",
+                            "id": "50250149012",
+                            "outline_rank": 2,
+                            "order_no": 12,
+                            "serial_number": null,
+                            "creationId": null,
+                            "sub": null
+                        },
+                        {
+                            "content_original": "3.3 基础设施的差异",
+                            "id": "50250149013",
+                            "outline_rank": 2,
+                            "order_no": 13,
+                            "serial_number": null,
+                            "creationId": null,
+                            "sub": null
+                        },
+                        {
+                            "content_original": "3.4 区位与资源禀赋差异",
+                            "id": "50250149014",
+                            "outline_rank": 2,
+                            "order_no": 14,
+                            "serial_number": null,
+                            "creationId": null,
+                            "sub": null
+                        }
+                    ]
+                },
+                {
+                    "content_original": "4 中国旅游业的区域差异的优化路径",
+                    "id": "50250149015",
+                    "outline_rank": 1,
+                    "order_no": 15,
+                    "serial_number": null,
+                    "creationId": null,
+                    "sub": [
+                        {
+                            "content_original": "4.1 推动区域经济发展,促进旅游互动发展",
+                            "id": "50250149016",
+                            "outline_rank": 2,
+                            "order_no": 16,
+                            "serial_number": null,
+                            "creationId": null,
+                            "sub": null
+                        },
+                        {
+                            "content_original": "4.2 以创新发展为引领,推动新旧动能转换",
+                            "id": "50250149017",
+                            "outline_rank": 2,
+                            "order_no": 17,
+                            "serial_number": null,
+                            "creationId": null,
+                            "sub": null
+                        },
+                        {
+                            "content_original": "4.3 重视文化产业发展,促进旅游与文化协同发展",
+                            "id": "50250149018",
+                            "outline_rank": 2,
+                            "order_no": 18,
+                            "serial_number": null,
+                            "creationId": null,
+                            "sub": null
+                        },
+                        {
+                            "content_original": "4.4 深度整合资源禀赋,提高旅游产品质量",
+                            "id": "50250149019",
+                            "outline_rank": 2,
+                            "order_no": 19,
+                            "serial_number": null,
+                            "creationId": null,
+                            "sub": null
+                        }
+                    ]
+                },
+                {
+                    "content_original": "5 总结",
+                    "id": "50250149020",
+                    "outline_rank": 1,
+                    "order_no": 20,
+                    "serial_number": null,
+                    "creationId": null,
+                    "sub": null
+                }
+            ],
+            "id": "1737296709768245249",
+            "wordCount": "13000字",
+            "outlineCount": 15,
+            "newOutlineCount": 15
+        },
+        {
+            "title": "旅游业现状分析及优化",
+            "data_type": "22",
+            "school_level": "3",
+            "school": null,
+            "outline": [
+                {
+                    "content_original": "1 引言",
+                    "id": "251286879001",
+                    "outline_rank": 1,
+                    "order_no": 1,
+                    "serial_number": null,
+                    "creationId": null,
+                    "sub": [
+                        {
+                            "content_original": "1.1 研究背景",
+                            "id": "251286879002",
+                            "outline_rank": 2,
+                            "order_no": 2,
+                            "serial_number": null,
+                            "creationId": null,
+                            "sub": null
+                        },
+                        {
+                            "content_original": "1.2 我国旅游业发展现状",
+                            "id": "251286879003",
+                            "outline_rank": 2,
+                            "order_no": 3,
+                            "serial_number": null,
+                            "creationId": null,
+                            "sub": null
+                        },
+                        {
+                            "content_original": "1.3 研究意义",
+                            "id": "251286879004",
+                            "outline_rank": 2,
+                            "order_no": 4,
+                            "serial_number": null,
+                            "creationId": null,
+                            "sub": null
+                        }
+                    ]
+                },
+                {
+                    "content_original": "2 模型建立背景",
+                    "id": "251286879005",
+                    "outline_rank": 1,
+                    "order_no": 5,
+                    "serial_number": null,
+                    "creationId": null,
+                    "sub": [
+                        {
+                            "content_original": "2.1 文献综述",
+                            "id": "251286879006",
+                            "outline_rank": 2,
+                            "order_no": 6,
+                            "serial_number": null,
+                            "creationId": null,
+                            "sub": null
+                        }
+                    ]
+                },
+                {
+                    "content_original": "3 模型变量的选择",
+                    "id": "251286879007",
+                    "outline_rank": 1,
+                    "order_no": 7,
+                    "serial_number": null,
+                    "creationId": null,
+                    "sub": [
+                        {
+                            "content_original": "3.1 模型变量",
+                            "id": "251286879008",
+                            "outline_rank": 2,
+                            "order_no": 8,
+                            "serial_number": null,
+                            "creationId": null,
+                            "sub": null
+                        },
+                        {
+                            "content_original": "3.2 模型设定",
+                            "id": "251286879009",
+                            "outline_rank": 2,
+                            "order_no": 9,
+                            "serial_number": null,
+                            "creationId": null,
+                            "sub": null
+                        },
+                        {
+                            "content_original": "3.3 数据收集见附录",
+                            "id": "251286879010",
+                            "outline_rank": 2,
+                            "order_no": 10,
+                            "serial_number": null,
+                            "creationId": null,
+                            "sub": null
+                        }
+                    ]
+                },
+                {
+                    "content_original": "4 回归参数分析",
+                    "id": "251286879011",
+                    "outline_rank": 1,
+                    "order_no": 11,
+                    "serial_number": null,
+                    "creationId": null,
+                    "sub": null
+                },
+                {
+                    "content_original": "5 理论模型的检验与修正",
+                    "id": "251286879012",
+                    "outline_rank": 1,
+                    "order_no": 12,
+                    "serial_number": null,
+                    "creationId": null,
+                    "sub": [
+                        {
+                            "content_original": "5.1 经济意义检验",
+                            "id": "251286879013",
+                            "outline_rank": 2,
+                            "order_no": 13,
+                            "serial_number": null,
+                            "creationId": null,
+                            "sub": null
+                        },
+                        {
+                            "content_original": "5.2 统计检验",
+                            "id": "251286879014",
+                            "outline_rank": 2,
+                            "order_no": 14,
+                            "serial_number": null,
+                            "creationId": null,
+                            "sub": [
+                                {
+                                    "content_original": "5.2.1 r2检验",
+                                    "id": "251286879015",
+                                    "outline_rank": 3,
+                                    "order_no": 15,
+                                    "serial_number": null,
+                                    "creationId": null,
+                                    "sub": null
+                                },
+                                {
+                                    "content_original": "5.2.2 f检验",
+                                    "id": "251286879016",
+                                    "outline_rank": 3,
+                                    "order_no": 16,
+                                    "serial_number": null,
+                                    "creationId": null,
+                                    "sub": null
+                                },
+                                {
+                                    "content_original": "5.2.3 t检验",
+                                    "id": "251286879017",
+                                    "outline_rank": 3,
+                                    "order_no": 17,
+                                    "serial_number": null,
+                                    "creationId": null,
+                                    "sub": null
+                                }
+                            ]
+                        },
+                        {
+                            "content_original": "5.3 计量经济学检验",
+                            "id": "251286879018",
+                            "outline_rank": 2,
+                            "order_no": 18,
+                            "serial_number": null,
+                            "creationId": null,
+                            "sub": [
+                                {
+                                    "content_original": "5.3.1 异方差",
+                                    "id": "251286879019",
+                                    "outline_rank": 3,
+                                    "order_no": 19,
+                                    "serial_number": null,
+                                    "creationId": null,
+                                    "sub": null
+                                }
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "content_original": "6 分析及建议",
+                    "id": "251286879020",
+                    "outline_rank": 1,
+                    "order_no": 20,
+                    "serial_number": null,
+                    "creationId": null,
+                    "sub": [
+                        {
+                            "content_original": "6.1 关于旅游产业的分析",
+                            "id": "251286879021",
+                            "outline_rank": 2,
+                            "order_no": 21,
+                            "serial_number": null,
+                            "creationId": null,
+                            "sub": null
+                        },
+                        {
+                            "content_original": "6.2 建议",
+                            "id": "251286879022",
+                            "outline_rank": 2,
+                            "order_no": 22,
+                            "serial_number": null,
+                            "creationId": null,
+                            "sub": null
+                        }
+                    ]
+                }
+            ],
+            "id": "1737296709776633858",
+            "wordCount": "13000字",
+            "outlineCount": 15,
+            "newOutlineCount": 15
+        },
+        {
+            "title": "后疫情时代旅游业高质量发展",
+            "data_type": "22",
+            "school_level": "3",
+            "school": null,
+            "outline": [
+                {
+                    "content_original": "1 研究意义",
+                    "id": "250285932000",
+                    "outline_rank": 1,
+                    "order_no": 0,
+                    "serial_number": null,
+                    "creationId": null,
+                    "sub": [
+                        {
+                            "content_original": "1.1 旅游业急需转型升级",
+                            "id": "250285932001",
+                            "outline_rank": 2,
+                            "order_no": 1,
+                            "serial_number": null,
+                            "creationId": null,
+                            "sub": null
+                        },
+                        {
+                            "content_original": "1.2 高质量发展是旅游业的发展方向和时代要求",
+                            "id": "250285932002",
+                            "outline_rank": 2,
+                            "order_no": 2,
+                            "serial_number": null,
+                            "creationId": null,
+                            "sub": null
+                        }
+                    ]
+                },
+                {
+                    "content_original": "2 相关概念",
+                    "id": "250285932003",
+                    "outline_rank": 1,
+                    "order_no": 3,
+                    "serial_number": null,
+                    "creationId": null,
+                    "sub": [
+                        {
+                            "content_original": "2.1 旅游业",
+                            "id": "250285932004",
+                            "outline_rank": 2,
+                            "order_no": 4,
+                            "serial_number": null,
+                            "creationId": null,
+                            "sub": null
+                        },
+                        {
+                            "content_original": "2.2 旅游业高质量",
+                            "id": "250285932005",
+                            "outline_rank": 2,
+                            "order_no": 5,
+                            "serial_number": null,
+                            "creationId": null,
+                            "sub": null
+                        }
+                    ]
+                },
+                {
+                    "content_original": "3 疫情下旅游业发展特征",
+                    "id": "250285932006",
+                    "outline_rank": 1,
+                    "order_no": 6,
+                    "serial_number": null,
+                    "creationId": null,
+                    "sub": [
+                        {
+                            "content_original": "3.1 旅游市场结构发生变化",
+                            "id": "250285932007",
+                            "outline_rank": 2,
+                            "order_no": 7,
+                            "serial_number": null,
+                            "creationId": null,
+                            "sub": null
+                        },
+                        {
+                            "content_original": "3.2 高品质产品受到消费者欢迎",
+                            "id": "250285932008",
+                            "outline_rank": 2,
+                            "order_no": 8,
+                            "serial_number": null,
+                            "creationId": null,
+                            "sub": null
+                        },
+                        {
+                            "content_original": "3.3 自驾游和周边游成为出游热点",
+                            "id": "250285932009",
+                            "outline_rank": 2,
+                            "order_no": 9,
+                            "serial_number": null,
+                            "creationId": null,
+                            "sub": null
+                        },
+                        {
+                            "content_original": "3.4 线上旅游模式促进旅游发展",
+                            "id": "250285932010",
+                            "outline_rank": 2,
+                            "order_no": 10,
+                            "serial_number": null,
+                            "creationId": null,
+                            "sub": null
+                        }
+                    ]
+                },
+                {
+                    "content_original": "4 旅游业发展现状",
+                    "id": "250285932011",
+                    "outline_rank": 1,
+                    "order_no": 11,
+                    "serial_number": null,
+                    "creationId": null,
+                    "sub": [
+                        {
+                            "content_original": "4.1 疫情前后旅游业发展对比",
+                            "id": "250285932012",
+                            "outline_rank": 2,
+                            "order_no": 12,
+                            "serial_number": null,
+                            "creationId": null,
+                            "sub": [
+                                {
+                                    "content_original": "4.1.1 疫情发生前旅游业稳步上涨",
+                                    "id": "250285932013",
+                                    "outline_rank": 3,
+                                    "order_no": 13,
+                                    "serial_number": null,
+                                    "creationId": null,
+                                    "sub": null
+                                },
+                                {
+                                    "content_original": "4.1.2 疫情的打击下旅游形势严峻",
+                                    "id": "250285932014",
+                                    "outline_rank": 3,
+                                    "order_no": 14,
+                                    "serial_number": null,
+                                    "creationId": null,
+                                    "sub": null
+                                },
+                                {
+                                    "content_original": "4.1.3 新冠疫情以后旅游业逐渐复苏",
+                                    "id": "250285932015",
+                                    "outline_rank": 3,
+                                    "order_no": 15,
+                                    "serial_number": null,
+                                    "creationId": null,
+                                    "sub": null
+                                }
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "content_original": "5 当前旅游业面临的矛盾与问题",
+                    "id": "250285932016",
+                    "outline_rank": 1,
+                    "order_no": 16,
+                    "serial_number": null,
+                    "creationId": null,
+                    "sub": [
+                        {
+                            "content_original": "5.1 传统旅游不适应时代发展",
+                            "id": "250285932017",
+                            "outline_rank": 2,
+                            "order_no": 17,
+                            "serial_number": null,
+                            "creationId": null,
+                            "sub": null
+                        },
+                        {
+                            "content_original": "5.2 在线旅游进入瓶颈期",
+                            "id": "250285932018",
+                            "outline_rank": 2,
+                            "order_no": 18,
+                            "serial_number": null,
+                            "creationId": null,
+                            "sub": null
+                        }
+                    ]
+                },
+                {
+                    "content_original": "6 高质量发展策略",
+                    "id": "250285932019",
+                    "outline_rank": 1,
+                    "order_no": 19,
+                    "serial_number": null,
+                    "creationId": null,
+                    "sub": [
+                        {
+                            "content_original": "6.1 抓住旅游业的发展机遇",
+                            "id": "250285932020",
+                            "outline_rank": 2,
+                            "order_no": 20,
+                            "serial_number": null,
+                            "creationId": null,
+                            "sub": null
+                        },
+                        {
+                            "content_original": "6.2 完善旅游业的基础设施建设",
+                            "id": "250285932021",
+                            "outline_rank": 2,
+                            "order_no": 21,
+                            "serial_number": null,
+                            "creationId": null,
+                            "sub": null
+                        }
+                    ]
+                }
+            ],
+            "id": "1737296709785022465",
+            "wordCount": "13000字",
+            "outlineCount": 15,
+            "newOutlineCount": 15
+        },
+        {
+            "title": "我国西部地区旅游业上市公司融资问题研究",
+            "data_type": "22",
+            "school_level": "3",
+            "school": "江苏师范大学科文学院",
+            "outline": [
+                {
+                    "content_original": "1 引言",
+                    "id": "47257849003",
+                    "outline_rank": 1,
+                    "order_no": 3,
+                    "serial_number": null,
+                    "creationId": null,
+                    "sub": [
+                        {
+                            "content_original": "1.1 研究背景及目的",
+                            "id": "47257849004",
+                            "outline_rank": 2,
+                            "order_no": 4,
+                            "serial_number": null,
+                            "creationId": null,
+                            "sub": null
+                        },
+                        {
+                            "content_original": "1.2 文献综述",
+                            "id": "47257849005",
+                            "outline_rank": 2,
+                            "order_no": 5,
+                            "serial_number": null,
+                            "creationId": null,
+                            "sub": null
+                        },
+                        {
+                            "content_original": "1.3 文献评析",
+                            "id": "47257849006",
+                            "outline_rank": 2,
+                            "order_no": 6,
+                            "serial_number": null,
+                            "creationId": null,
+                            "sub": null
+                        },
+                        {
+                            "content_original": "1.4 研究内容与方法",
+                            "id": "47257849007",
+                            "outline_rank": 2,
+                            "order_no": 7,
+                            "serial_number": null,
+                            "creationId": null,
+                            "sub": null
+                        }
+                    ]
+                },
+                {
+                    "content_original": "2 相关理论基础",
+                    "id": "47257849008",
+                    "outline_rank": 1,
+                    "order_no": 8,
+                    "serial_number": null,
+                    "creationId": null,
+                    "sub": [
+                        {
+                            "content_original": "2.1 相关概念",
+                            "id": "47257849009",
+                            "outline_rank": 2,
+                            "order_no": 9,
+                            "serial_number": null,
+                            "creationId": null,
+                            "sub": null
+                        },
+                        {
+                            "content_original": "2.2 融资理论",
+                            "id": "47257849010",
+                            "outline_rank": 2,
+                            "order_no": 10,
+                            "serial_number": null,
+                            "creationId": null,
+                            "sub": null
+                        }
+                    ]
+                },
+                {
+                    "content_original": "3 我国西部地区旅游上市公司融资现状分析",
+                    "id": "47257849011",
+                    "outline_rank": 1,
+                    "order_no": 11,
+                    "serial_number": null,
+                    "creationId": null,
+                    "sub": [
+                        {
+                            "content_original": "3.1 融资环境",
+                            "id": "47257849012",
+                            "outline_rank": 2,
+                            "order_no": 12,
+                            "serial_number": null,
+                            "creationId": null,
+                            "sub": null
+                        },
+                        {
+                            "content_original": "3.2 融资规模",
+                            "id": "47257849013",
+                            "outline_rank": 2,
+                            "order_no": 13,
+                            "serial_number": null,
+                            "creationId": null,
+                            "sub": null
+                        },
+                        {
+                            "content_original": "3.3 融资结构",
+                            "id": "47257849014",
+                            "outline_rank": 2,
+                            "order_no": 14,
+                            "serial_number": null,
+                            "creationId": null,
+                            "sub": null
+                        }
+                    ]
+                },
+                {
+                    "content_original": "4 西部旅游业上市公司的融资案例分析",
+                    "id": "47257849015",
+                    "outline_rank": 1,
+                    "order_no": 15,
+                    "serial_number": null,
+                    "creationId": null,
+                    "sub": [
+                        {
+                            "content_original": "4.1 选取原因",
+                            "id": "47257849016",
+                            "outline_rank": 2,
+                            "order_no": 16,
+                            "serial_number": null,
+                            "creationId": null,
+                            "sub": null
+                        },
+                        {
+                            "content_original": "4.2 公司简介",
+                            "id": "47257849017",
+                            "outline_rank": 2,
+                            "order_no": 17,
+                            "serial_number": null,
+                            "creationId": null,
+                            "sub": null
+                        },
+                        {
+                            "content_original": "4.3 融资偏好",
+                            "id": "47257849018",
+                            "outline_rank": 2,
+                            "order_no": 18,
+                            "serial_number": null,
+                            "creationId": null,
+                            "sub": null
+                        },
+                        {
+                            "content_original": "4.4 融资能力分析",
+                            "id": "47257849019",
+                            "outline_rank": 2,
+                            "order_no": 19,
+                            "serial_number": null,
+                            "creationId": null,
+                            "sub": null
+                        },
+                        {
+                            "content_original": "4.5 研究结论",
+                            "id": "47257849020",
+                            "outline_rank": 2,
+                            "order_no": 20,
+                            "serial_number": null,
+                            "creationId": null,
+                            "sub": null
+                        }
+                    ]
+                },
+                {
+                    "content_original": "5 对策建议",
+                    "id": "47257849021",
+                    "outline_rank": 1,
+                    "order_no": 21,
+                    "serial_number": null,
+                    "creationId": null,
+                    "sub": null
+                }
+            ],
+            "id": "1737296709801799682",
+            "wordCount": "13000字",
+            "outlineCount": 15,
+            "newOutlineCount": 15
+        },
+        {
+            "title": "旅游业的经济功能及其在区域发展中的作用",
+            "data_type": "22",
+            "school_level": "3",
+            "school": null,
+            "outline": [
+                {
+                    "content_original": "1 绪论",
+                    "id": "56870820001",
+                    "outline_rank": 1,
+                    "order_no": 1,
+                    "serial_number": null,
+                    "creationId": null,
+                    "sub": [
+                        {
+                            "content_original": "1.1 研究背景",
+                            "id": "56870820002",
+                            "outline_rank": 2,
+                            "order_no": 2,
+                            "serial_number": null,
+                            "creationId": null,
+                            "sub": null
+                        },
+                        {
+                            "content_original": "1.2 研究现状",
+                            "id": "56870820003",
+                            "outline_rank": 2,
+                            "order_no": 3,
+                            "serial_number": null,
+                            "creationId": null,
+                            "sub": [
+                                {
+                                    "content_original": "1.2.1 国内研究现状",
+                                    "id": "56870820004",
+                                    "outline_rank": 3,
+                                    "order_no": 4,
+                                    "serial_number": null,
+                                    "creationId": null,
+                                    "sub": null
+                                },
+                                {
+                                    "content_original": "1.2.2 国外研究现状",
+                                    "id": "56870820005",
+                                    "outline_rank": 3,
+                                    "order_no": 5,
+                                    "serial_number": null,
+                                    "creationId": null,
+                                    "sub": null
+                                }
+                            ]
+                        },
+                        {
+                            "content_original": "1.3 研究意义",
+                            "id": "56870820006",
+                            "outline_rank": 2,
+                            "order_no": 6,
+                            "serial_number": null,
+                            "creationId": null,
+                            "sub": [
+                                {
+                                    "content_original": "1.3.1 理论意义",
+                                    "id": "56870820007",
+                                    "outline_rank": 3,
+                                    "order_no": 7,
+                                    "serial_number": null,
+                                    "creationId": null,
+                                    "sub": null
+                                },
+                                {
+                                    "content_original": "1.3.2 现实意义",
+                                    "id": "56870820008",
+                                    "outline_rank": 3,
+                                    "order_no": 8,
+                                    "serial_number": null,
+                                    "creationId": null,
+                                    "sub": null
+                                }
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "content_original": "2 相关概念界定及理论基础",
+                    "id": "56870820009",
+                    "outline_rank": 1,
+                    "order_no": 9,
+                    "serial_number": null,
+                    "creationId": null,
+                    "sub": [
+                        {
+                            "content_original": "2.1 旅游业",
+                            "id": "56870820010",
+                            "outline_rank": 2,
+                            "order_no": 10,
+                            "serial_number": null,
+                            "creationId": null,
+                            "sub": null
+                        },
+                        {
+                            "content_original": "2.2 经济增长",
+                            "id": "56870820011",
+                            "outline_rank": 2,
+                            "order_no": 11,
+                            "serial_number": null,
+                            "creationId": null,
+                            "sub": null
+                        },
+                        {
+                            "content_original": "2.3 旅游效应",
+                            "id": "56870820012",
+                            "outline_rank": 2,
+                            "order_no": 12,
+                            "serial_number": null,
+                            "creationId": null,
+                            "sub": null
+                        }
+                    ]
+                },
+                {
+                    "content_original": "3 旅游业的经济功能分析",
+                    "id": "56870820013",
+                    "outline_rank": 1,
+                    "order_no": 13,
+                    "serial_number": null,
+                    "creationId": null,
+                    "sub": [
+                        {
+                            "content_original": "3.1 有效提高景点经济水平",
+                            "id": "56870820014",
+                            "outline_rank": 2,
+                            "order_no": 14,
+                            "serial_number": null,
+                            "creationId": null,
+                            "sub": null
+                        },
+                        {
+                            "content_original": "3.2 拉动区域相关行业发展",
+                            "id": "56870820015",
+                            "outline_rank": 2,
+                            "order_no": 15,
+                            "serial_number": null,
+                            "creationId": null,
+                            "sub": null
+                        },
+                        {
+                            "content_original": "3.3 缓解区域就业压力",
+                            "id": "56870820016",
+                            "outline_rank": 2,
+                            "order_no": 16,
+                            "serial_number": null,
+                            "creationId": null,
+                            "sub": null
+                        }
+                    ]
+                },
+                {
+                    "content_original": "4 旅游业发展策略建议",
+                    "id": "56870820017",
+                    "outline_rank": 1,
+                    "order_no": 17,
+                    "serial_number": null,
+                    "creationId": null,
+                    "sub": [
+                        {
+                            "content_original": "4.1 加大旅游资源开发力度",
+                            "id": "56870820018",
+                            "outline_rank": 2,
+                            "order_no": 18,
+                            "serial_number": null,
+                            "creationId": null,
+                            "sub": null
+                        },
+                        {
+                            "content_original": "4.2 开发多种旅游线路",
+                            "id": "56870820019",
+                            "outline_rank": 2,
+                            "order_no": 19,
+                            "serial_number": null,
+                            "creationId": null,
+                            "sub": null
+                        },
+                        {
+                            "content_original": "4.3 加强旅游宣传力度",
+                            "id": "56870820020",
+                            "outline_rank": 2,
+                            "order_no": 20,
+                            "serial_number": null,
+                            "creationId": null,
+                            "sub": null
+                        }
+                    ]
+                },
+                {
+                    "content_original": "5 结论",
+                    "id": "56870820021",
+                    "outline_rank": 1,
+                    "order_no": 21,
+                    "serial_number": null,
+                    "creationId": null,
+                    "sub": null
+                }
+            ],
+            "id": "1737296709810188289",
+            "wordCount": "13000字",
+            "outlineCount": 15,
+            "newOutlineCount": 15
+        },
+        {
+            "title": "地区旅游业的发展影响因素",
+            "data_type": "22",
+            "school_level": "3",
+            "school": null,
+            "outline": [
+                {
+                    "content_original": "1 绪论",
+                    "id": "49210588000",
+                    "outline_rank": 1,
+                    "order_no": 0,
+                    "serial_number": null,
+                    "creationId": null,
+                    "sub": [
+                        {
+                            "content_original": "1.1 研究背景",
+                            "id": "49210588001",
+                            "outline_rank": 2,
+                            "order_no": 1,
+                            "serial_number": null,
+                            "creationId": null,
+                            "sub": null
+                        },
+                        {
+                            "content_original": "1.2 研究意义",
+                            "id": "49210588002",
+                            "outline_rank": 2,
+                            "order_no": 2,
+                            "serial_number": null,
+                            "creationId": null,
+                            "sub": null
+                        },
+                        {
+                            "content_original": "1.3 研究内容",
+                            "id": "49210588003",
+                            "outline_rank": 2,
+                            "order_no": 3,
+                            "serial_number": null,
+                            "creationId": null,
+                            "sub": null
+                        }
+                    ]
+                },
+                {
+                    "content_original": "2 理论介绍",
+                    "id": "49210588004",
+                    "outline_rank": 1,
+                    "order_no": 4,
+                    "serial_number": null,
+                    "creationId": null,
+                    "sub": [
+                        {
+                            "content_original": "2.1 偏最小二乘回归",
+                            "id": "49210588005",
+                            "outline_rank": 2,
+                            "order_no": 5,
+                            "serial_number": null,
+                            "creationId": null,
+                            "sub": [
+                                {
+                                    "content_original": "2.1.1 偏最小二乘回归基本原理与思想",
+                                    "id": "49210588006",
+                                    "outline_rank": 3,
+                                    "order_no": 6,
+                                    "serial_number": null,
+                                    "creationId": null,
+                                    "sub": null
+                                },
+                                {
+                                    "content_original": "2.1.2 偏最小二乘回归公式",
+                                    "id": "49210588007",
+                                    "outline_rank": 3,
+                                    "order_no": 7,
+                                    "serial_number": null,
+                                    "creationId": null,
+                                    "sub": null
+                                }
+                            ]
+                        },
+                        {
+                            "content_original": "2.2 灰色关联度分析原理",
+                            "id": "49210588008",
+                            "outline_rank": 2,
+                            "order_no": 8,
+                            "serial_number": null,
+                            "creationId": null,
+                            "sub": null
+                        }
+                    ]
+                },
+                {
+                    "content_original": "3 旅游经济影响因素与数据处理",
+                    "id": "49210588009",
+                    "outline_rank": 1,
+                    "order_no": 9,
+                    "serial_number": null,
+                    "creationId": null,
+                    "sub": [
+                        {
+                            "content_original": "3.1 旅游经济影响因素",
+                            "id": "49210588010",
+                            "outline_rank": 2,
+                            "order_no": 10,
+                            "serial_number": null,
+                            "creationId": null,
+                            "sub": null
+                        },
+                        {
+                            "content_original": "3.2 数据处理",
+                            "id": "49210588011",
+                            "outline_rank": 2,
+                            "order_no": 11,
+                            "serial_number": null,
+                            "creationId": null,
+                            "sub": [
+                                {
+                                    "content_original": "3.2.1 变量说明",
+                                    "id": "49210588012",
+                                    "outline_rank": 3,
+                                    "order_no": 12,
+                                    "serial_number": null,
+                                    "creationId": null,
+                                    "sub": null
+                                },
+                                {
+                                    "content_original": "3.2.2 数据的预处理",
+                                    "id": "49210588013",
+                                    "outline_rank": 3,
+                                    "order_no": 13,
+                                    "serial_number": null,
+                                    "creationId": null,
+                                    "sub": null
+                                }
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "content_original": "4 实证分析",
+                    "id": "49210588014",
+                    "outline_rank": 1,
+                    "order_no": 14,
+                    "serial_number": null,
+                    "creationId": null,
+                    "sub": [
+                        {
+                            "content_original": "4.1 偏最小二乘回归",
+                            "id": "49210588015",
+                            "outline_rank": 2,
+                            "order_no": 15,
+                            "serial_number": null,
+                            "creationId": null,
+                            "sub": [
+                                {
+                                    "content_original": "4.1.1 用r软件实现",
+                                    "id": "49210588016",
+                                    "outline_rank": 3,
+                                    "order_no": 16,
+                                    "serial_number": null,
+                                    "creationId": null,
+                                    "sub": null
+                                },
+                                {
+                                    "content_original": "4.1.2 与逐步回归作对比",
+                                    "id": "49210588017",
+                                    "outline_rank": 3,
+                                    "order_no": 17,
+                                    "serial_number": null,
+                                    "creationId": null,
+                                    "sub": null
+                                }
+                            ]
+                        },
+                        {
+                            "content_original": "4.2 灰色关联度分析",
+                            "id": "49210588018",
+                            "outline_rank": 2,
+                            "order_no": 18,
+                            "serial_number": null,
+                            "creationId": null,
+                            "sub": [
+                                {
+                                    "content_original": "4.2.1 数据的统计图与初步分析",
+                                    "id": "49210588019",
+                                    "outline_rank": 3,
+                                    "order_no": 19,
+                                    "serial_number": null,
+                                    "creationId": null,
+                                    "sub": null
+                                },
+                                {
+                                    "content_original": "4.2.2 灰色关联度分析的r软件实现",
+                                    "id": "49210588020",
+                                    "outline_rank": 3,
+                                    "order_no": 20,
+                                    "serial_number": null,
+                                    "creationId": null,
+                                    "sub": null
+                                }
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "content_original": "5 结论及建议",
+                    "id": "49210588021",
+                    "outline_rank": 1,
+                    "order_no": 21,
+                    "serial_number": null,
+                    "creationId": null,
+                    "sub": null
+                }
+            ],
+            "id": "1737296709747273729",
+            "wordCount": "12300字",
+            "outlineCount": 14,
+            "newOutlineCount": 14
+        },
+        {
+            "title": "旅游业在疫情后的持续恢复以及高质量发展",
+            "data_type": "22",
+            "school_level": "3",
+            "school": null,
+            "outline": [
+                {
+                    "content_original": "1 引言",
+                    "id": "47502281000",
+                    "outline_rank": 1,
+                    "order_no": 0,
+                    "serial_number": null,
+                    "creationId": null,
+                    "sub": null
+                },
+                {
+                    "content_original": "2 疫情下旅游业现状",
+                    "id": "47502281001",
+                    "outline_rank": 1,
+                    "order_no": 1,
+                    "serial_number": null,
+                    "creationId": null,
+                    "sub": [
+                        {
+                            "content_original": "2.1 入境旅游基本\"停顿",
+                            "id": "47502281002",
+                            "outline_rank": 2,
+                            "order_no": 2,
+                            "serial_number": null,
+                            "creationId": null,
+                            "sub": null
+                        },
+                        {
+                            "content_original": "2.2 国内旅游完全\"瘫痪",
+                            "id": "47502281003",
+                            "outline_rank": 2,
+                            "order_no": 3,
+                            "serial_number": null,
+                            "creationId": null,
+                            "sub": null
+                        }
+                    ]
+                },
+                {
+                    "content_original": "3 旅游业在疫情中所暴露出的问题",
+                    "id": "47502281004",
+                    "outline_rank": 1,
+                    "order_no": 4,
+                    "serial_number": null,
+                    "creationId": null,
+                    "sub": [
+                        {
+                            "content_original": "3.1 明显的服务缺失",
+                            "id": "47502281005",
+                            "outline_rank": 2,
+                            "order_no": 5,
+                            "serial_number": null,
+                            "creationId": null,
+                            "sub": null
+                        },
+                        {
+                            "content_original": "3.2 如何针对疫情完善旅游公共服务体系",
+                            "id": "47502281006",
+                            "outline_rank": 2,
+                            "order_no": 6,
+                            "serial_number": null,
+                            "creationId": null,
+                            "sub": null
+                        }
+                    ]
+                },
+                {
+                    "content_original": "4 重整策略",
+                    "id": "47502281007",
+                    "outline_rank": 1,
+                    "order_no": 7,
+                    "serial_number": null,
+                    "creationId": null,
+                    "sub": [
+                        {
+                            "content_original": "4.1 政府的扶持",
+                            "id": "47502281008",
+                            "outline_rank": 2,
+                            "order_no": 8,
+                            "serial_number": null,
+                            "creationId": null,
+                            "sub": null
+                        },
+                        {
+                            "content_original": "4.2 企业自身的改革重整",
+                            "id": "47502281009",
+                            "outline_rank": 2,
+                            "order_no": 9,
+                            "serial_number": null,
+                            "creationId": null,
+                            "sub": null
+                        }
+                    ]
+                },
+                {
+                    "content_original": "5 疫情之后的产业恢复和高质量发展",
+                    "id": "47502281010",
+                    "outline_rank": 1,
+                    "order_no": 10,
+                    "serial_number": null,
+                    "creationId": null,
+                    "sub": [
+                        {
+                            "content_original": "5.1 发展战略",
+                            "id": "47502281011",
+                            "outline_rank": 2,
+                            "order_no": 11,
+                            "serial_number": null,
+                            "creationId": null,
+                            "sub": null
+                        },
+                        {
+                            "content_original": "5.2 旅游企业如何度过难关",
+                            "id": "47502281012",
+                            "outline_rank": 2,
+                            "order_no": 12,
+                            "serial_number": null,
+                            "creationId": null,
+                            "sub": null
+                        },
+                        {
+                            "content_original": "5.3 兼顾与发展",
+                            "id": "47502281013",
+                            "outline_rank": 2,
+                            "order_no": 13,
+                            "serial_number": null,
+                            "creationId": null,
+                            "sub": null
+                        },
+                        {
+                            "content_original": "5.4 开创数据化新旅游方式",
+                            "id": "47502281014",
+                            "outline_rank": 2,
+                            "order_no": 14,
+                            "serial_number": null,
+                            "creationId": null,
+                            "sub": null
+                        },
+                        {
+                            "content_original": "5.5 发展提升营销水平的相关策略",
+                            "id": "47502281015",
+                            "outline_rank": 2,
+                            "order_no": 15,
+                            "serial_number": null,
+                            "creationId": null,
+                            "sub": null
+                        }
+                    ]
+                },
+                {
+                    "content_original": "6 守正恢复与开创高质量发展",
+                    "id": "47502281016",
+                    "outline_rank": 1,
+                    "order_no": 16,
+                    "serial_number": null,
+                    "creationId": null,
+                    "sub": null
+                },
+                {
+                    "content_original": "7 总结",
+                    "id": "47502281017",
+                    "outline_rank": 1,
+                    "order_no": 17,
+                    "serial_number": null,
+                    "creationId": null,
+                    "sub": null
+                }
+            ],
+            "id": "1737296709759856642",
+            "wordCount": "12300字",
+            "outlineCount": 14,
+            "newOutlineCount": 14
+        },
+        {
+            "title": "浅论我国旅游业的可持续发展",
+            "data_type": "22",
+            "school_level": "3",
+            "school": null,
+            "outline": [
+                {
+                    "content_original": "1 旅游与旅游业",
+                    "id": "250056967001",
+                    "outline_rank": 1,
+                    "order_no": 1,
+                    "serial_number": null,
+                    "creationId": null,
+                    "sub": null
+                },
+                {
+                    "content_original": "2 可持续发展观",
+                    "id": "250056967002",
+                    "outline_rank": 1,
+                    "order_no": 2,
+                    "serial_number": null,
+                    "creationId": null,
+                    "sub": [
+                        {
+                            "content_original": "2.1 可持续发展观的概念",
+                            "id": "250056967003",
+                            "outline_rank": 2,
+                            "order_no": 3,
+                            "serial_number": null,
+                            "creationId": null,
+                            "sub": null
+                        },
+                        {
+                            "content_original": "2.2 可持续发展观的三大内涵",
+                            "id": "250056967004",
+                            "outline_rank": 2,
+                            "order_no": 4,
+                            "serial_number": null,
+                            "creationId": null,
+                            "sub": [
+                                {
+                                    "content_original": "2.2.1 经济可持续发展",
+                                    "id": "250056967005",
+                                    "outline_rank": 3,
+                                    "order_no": 5,
+                                    "serial_number": null,
+                                    "creationId": null,
+                                    "sub": null
+                                },
+                                {
+                                    "content_original": "2.2.2 生态可持续发展",
+                                    "id": "250056967006",
+                                    "outline_rank": 3,
+                                    "order_no": 6,
+                                    "serial_number": null,
+                                    "creationId": null,
+                                    "sub": null
+                                },
+                                {
+                                    "content_original": "2.2.3 社会可持续发展",
+                                    "id": "250056967007",
+                                    "outline_rank": 3,
+                                    "order_no": 7,
+                                    "serial_number": null,
+                                    "creationId": null,
+                                    "sub": null
+                                }
+                            ]
+                        },
+                        {
+                            "content_original": "2.3 实现旅游资源可持续发展的重大意义",
+                            "id": "250056967008",
+                            "outline_rank": 2,
+                            "order_no": 8,
+                            "serial_number": null,
+                            "creationId": null,
+                            "sub": null
+                        }
+                    ]
+                },
+                {
+                    "content_original": "3 旅游资源",
+                    "id": "250056967009",
+                    "outline_rank": 1,
+                    "order_no": 9,
+                    "serial_number": null,
+                    "creationId": null,
+                    "sub": [
+                        {
+                            "content_original": "3.1 旅游资源的概念",
+                            "id": "250056967010",
+                            "outline_rank": 2,
+                            "order_no": 10,
+                            "serial_number": null,
+                            "creationId": null,
+                            "sub": null
+                        },
+                        {
+                            "content_original": "3.2 旅游资源的特点",
+                            "id": "250056967011",
+                            "outline_rank": 2,
+                            "order_no": 11,
+                            "serial_number": null,
+                            "creationId": null,
+                            "sub": null
+                        },
+                        {
+                            "content_original": "3.3 旅游资源分类",
+                            "id": "250056967012",
+                            "outline_rank": 2,
+                            "order_no": 12,
+                            "serial_number": null,
+                            "creationId": null,
+                            "sub": null
+                        }
+                    ]
+                },
+                {
+                    "content_original": "4 旅游发展中旅游环境出现的问题",
+                    "id": "250056967013",
+                    "outline_rank": 1,
+                    "order_no": 13,
+                    "serial_number": null,
+                    "creationId": null,
+                    "sub": [
+                        {
+                            "content_original": "4.1 旅游环境与旅游环境分类",
+                            "id": "250056967014",
+                            "outline_rank": 2,
+                            "order_no": 14,
+                            "serial_number": null,
+                            "creationId": null,
+                            "sub": null
+                        },
+                        {
+                            "content_original": "4.2 旅游资源开发和旅游活动中存在的主要问题",
+                            "id": "250056967015",
+                            "outline_rank": 2,
+                            "order_no": 15,
+                            "serial_number": null,
+                            "creationId": null,
+                            "sub": null
+                        }
+                    ]
+                },
+                {
+                    "content_original": "5 旅游开发与保护之间的矛盾",
+                    "id": "250056967016",
+                    "outline_rank": 1,
+                    "order_no": 16,
+                    "serial_number": null,
+                    "creationId": null,
+                    "sub": [
+                        {
+                            "content_original": "5.1 单纯的保护难以为继",
+                            "id": "250056967017",
+                            "outline_rank": 2,
+                            "order_no": 17,
+                            "serial_number": null,
+                            "creationId": null,
+                            "sub": null
+                        },
+                        {
+                            "content_original": "5.2 只注重开发环境伤害巨大",
+                            "id": "250056967018",
+                            "outline_rank": 2,
+                            "order_no": 18,
+                            "serial_number": null,
+                            "creationId": null,
+                            "sub": null
+                        }
+                    ]
+                },
+                {
+                    "content_original": "6 旅游业可持续发展的意见和建议",
+                    "id": "250056967019",
+                    "outline_rank": 1,
+                    "order_no": 19,
+                    "serial_number": null,
+                    "creationId": null,
+                    "sub": null
+                }
+            ],
+            "id": "1737296709843742721",
+            "wordCount": "12300字",
+            "outlineCount": 14,
+            "newOutlineCount": 14
         }
-    ],
-    "usage": {
-        "prompt_tokens": 44,
-        "completion_tokens": 626,
-        "total_tokens": 670
-    },
-    "system_fingerprint": null
-}
+]

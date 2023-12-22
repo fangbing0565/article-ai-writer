@@ -1,5 +1,5 @@
 import mockData from './mock_gpt_outline.json'
-import mockData2 from './mock_gpt_outline2.json'
+import nodejieba from 'nodejieba'
 // import { safeGetGPTData } from 'backend/logic'
 import type { NextApiRequest, NextApiResponse } from 'next'
 
@@ -9,11 +9,17 @@ type ResponseData = {
 }
 
 export default async function handler(req: NextApiRequest, res: NextApiResponse<ResponseData>) {
-  const { content } = req.body
-  console.log('content: ', content)
+  const { content, originContent } = req.body
+  console.log('content: ', content, originContent)
+  const result = nodejieba.extract(originContent, 2)
+  // nodejieba [
+  //   { word: '旅游业', weight: 7.82763311788 },
+  //   { word: '西部', weight: 5.79778851733 }
+  // ]
+  console.log('nodejieba', result)
   res.status(200).json({
     message: 'success',
-    data: [mockData.choices[0].message.content, mockData2.choices[0].message.content]
+    data: mockData
   })
   // const { content } = req.body
   // const result: any = await safeGetGPTData(content)

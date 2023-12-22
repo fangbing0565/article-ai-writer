@@ -17,8 +17,13 @@ export async function postData(url: string, data = {}, headers = {}) {
   return response.json() // parses JSON response into native JavaScript objects
 }
 
-export const postGenerateService = (props = {}) => {
-  return postData('/api/generate', {
+export const postGenerateArticleService = (props = {}) => {
+  return postData('/api/article_generate', {
+    ...props
+  })
+}
+export const postGenerateOutlineService = (props = {}) => {
+  return postData('/api/outline_generate', {
     ...props
   })
 }
