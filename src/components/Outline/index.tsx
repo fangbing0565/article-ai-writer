@@ -6,7 +6,6 @@ import { Button } from 'antd'
 const tansferDatatoRickValue = (outline: Record<string, any>) => {
   return outline
     .map((item: any) => {
-      console.info('outline item: ', item)
       return (
         item.content_original +
         '/n' +
@@ -33,8 +32,9 @@ const Outline = (props: Props) => {
           <Editor onChange={handleChange} value={outlineValue} />
         </div>
         <div className={styles.btns}>
-          <Button>取消修改</Button>
-          <Button type="primary">ai生成正文</Button>
+          <div className={styles.tip}>论文字数：约{'14400'}字</div>
+          <Button>取消</Button>
+          <Button type="primary">ai生成</Button>
         </div>
       </div>
     </div>

@@ -3,7 +3,9 @@ import styles from './index.module.css'
 import { useCallback, useState } from 'react'
 import OutlineEdit from 'components/OutlineEdit'
 import { Button } from 'antd'
+import { RedoOutlined } from '@ant-design/icons'
 
+// 论文提交后务必保存报告下载网址和订单号按CTRL+D即可保存书签至浏览器
 interface Props {
   value: any[]
 }
@@ -19,7 +21,9 @@ const OutlineGroup = (props: Props) => {
     <div>
       <div className={styles.tip}>
         {'“输入提纲”或选择“推荐提纲”，生成正文。(已根据论文标题为你推荐3组提纲'}
-        <Button onClick={handlePageChange}>换一换 </Button>
+        <Button type="text" onClick={handlePageChange}>
+          <RedoOutlined rev={''} /> 换一换
+        </Button>
       </div>
       <div className={styles.group}>
         <OutlineEdit />

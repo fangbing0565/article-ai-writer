@@ -38,3 +38,12 @@
     height: 48px;
     gap: 8px;
 }
+.tip{
+    font-size: 12px;
+    color: #8b9098;
+    white-space: nowrap;
+    text-align: left;
+}
+.btns button{
+    padding: 0 4px !important;
+}
